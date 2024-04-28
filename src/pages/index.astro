@@ -4,10 +4,57 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout title="Welcome to Astro.">
   <main
-    class="hidden main:block w-full h-full overflow-y-hidden overflow-x-auto bg-blue"
+    id="main"
+    class="hidden main:block w-full h-screen overflow-y-hidden overflow-x-clip relative"
   >
+    <div class="h-full">
+      <div class="left-0 top-0 w-full h-full flex flex-col">
+        <div class="bg-blue w-full grow"></div>
+        <div class="bg-green h-[30px] w-full"></div>
+        <div class="bg-white w-full grow"></div>
+      </div>
+    </div>
+    <div class="h-full fixed right-0 top-0 translate-x-[50%] z-50">
+      <svg
+        class="h-full"
+        id="arrow"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 500 1000"
+      >
+        <rect
+          y="250"
+          width="250"
+          height="500"
+          style="fill: #d6fa00; stroke-width: 0px;"></rect>
+        <g transform-origin="50% 25%" id="circle-top">
+          <circle
+            cx="250"
+            cy="250"
+            r="250"
+            style="fill: #343437; stroke-width: 0px;"></circle>
+          <circle
+            cx="250"
+            cy="400"
+            r="50"
+            style="fill: #f57939; stroke-width: 0px;"></circle>
+        </g>
+        <g transform-origin="50% 25%" id="circle-bottom">
+          <circle
+            cx="250"
+            cy="750"
+            r="250"
+            style="fill: #122d8b; stroke-width: 0px;"></circle>
+          <rect
+            x="240"
+            y="525"
+            width="20"
+            height="200"
+            style="fill: #d6fa00; stroke-width: 0px;"></rect>
+        </g>
+      </svg>
+    </div>
   </main>
-  <div class="w-full h-full flex main:hidden justify-center items-center">
+  <div class="w-full h-screen flex main:hidden justify-center items-center">
     <span class="text-blue"
       >Your screen needs to be 1000px wide and 500px high.</span
     >

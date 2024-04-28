@@ -16,7 +16,8 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body class="bg-white w-screen h-screen">
+  <body class="bg-white w-full overflow-x-hidden main:h-[5000px]">
     <slot />
+    <script src="../scripts/main-gsap.ts"></script>
   </body>
 </html>
