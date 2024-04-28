@@ -1,5 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import TitleCard from "../components/TitleCard.astro";
+import Intro from "../components/Intro.astro";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -7,12 +9,14 @@ import Layout from "../layouts/Layout.astro";
     id="main"
     class="hidden main:block w-full h-screen overflow-y-hidden overflow-x-clip relative"
   >
-    <div class="h-full">
-      <div class="left-0 top-0 w-full h-full flex flex-col">
-        <div class="bg-blue w-full grow"></div>
-        <div class="bg-green h-[30px] w-full"></div>
-        <div class="bg-white w-full grow"></div>
-      </div>
+    <div class="left-0 top-0 w-full h-full flex flex-col absolute z-0">
+      <div class="bg-blue w-full grow"></div>
+      <div class="bg-green h-[30px] w-full"></div>
+      <div class="bg-white w-full grow"></div>
+    </div>
+    <div id="scroller" class="h-full w-max relative z-10 flex flex-row">
+      <TitleCard />
+      <Intro />
     </div>
     <div class="h-full fixed right-0 top-0 translate-x-[50%] z-50">
       <svg
