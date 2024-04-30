@@ -18,6 +18,7 @@ const initTimeline = () => {
       start: "top top",
       scrub: 1,
       end: 30000,
+      snap: { snapTo: "labels", duration: 0.1, ease: "power2.out" },
     },
   });
 
