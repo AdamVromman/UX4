@@ -38,14 +38,23 @@ const initTimeline = () => {
     START
   );
 
-  for (let x = 0; x < 33; x++) {
-    console.log(x);
+  for (let x = 0; x < 34; x++) {
     timeline.addLabel(`label-${x}`, x);
-    timeline.to(
-      `.parallax-plane-1-${x}`,
-      { x: "-200px", ease: EASE, duration: 1 },
-      `label-${x}${x > 0 ? "-=0.5" : ""}`
-    );
+
+    if (x === 0) {
+      timeline.to(
+        `.parallax-plane-1-${x}`,
+        { x: "-200px", ease: EASE, duration: 1 },
+        `label-${x}`
+      );
+    } else {
+      timeline.fromTo(
+        `.parallax-plane-1-${x}`,
+        { x: "200px" },
+        { x: "-200px", ease: EASE, duration: 1 },
+        `label-${x}-=0.5`
+      );
+    }
   }
 };
 
