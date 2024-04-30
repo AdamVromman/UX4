@@ -34,51 +34,56 @@ export const chapters = [
   "conclusions",
 ];
 
-export const circleTexts = {
-  ele: `<g id="Layer_3" data-name="Layer 3">
-  <text transform="translate(132.65 69.04) rotate(-26.74)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 700;"><tspan x="0" y="0"> </tspan></text>
-  <text transform="translate(158.32 56) rotate(-17.95)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 700;"><tspan x="0" y="0">E</tspan></text>
-  <text transform="translate(185.66 47.05) rotate(-9.17)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 700;"><tspan x="0" y="0">l</tspan></text>
-  <text transform="translate(214.11 42.49) rotate(-.93)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 700;"><tspan x="0" y="0">e</tspan></text>
-  <text transform="translate(242.85 42.02) rotate(8.15)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 700;"><tspan x="0" y="0"> </tspan></text>
-  <text transform="translate(271.34 46) rotate(16.92)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">S</tspan></text>
-  <text transform="translate(298.92 54.3) rotate(25.72)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">h</tspan></text>
-  <text transform="translate(324.88 66.7) rotate(34.45)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">a</tspan></text>
-  <text transform="translate(348.67 82.91) rotate(43.14)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">p</tspan></text>
-  <text transform="translate(369.75 102.54) rotate(51.83)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
-  <text transform="translate(387.61 125.1) rotate(60.54)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
-  <text transform="translate(401.84 150.1) rotate(69.31)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">,</tspan></text>
-  <text transform="translate(412.1 176.99) rotate(78.1)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
-  <text transform="translate(418.12 205.16) rotate(86.83)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">P</tspan></text>
-  <text transform="translate(419.81 233.89) rotate(95.44)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">l</tspan></text>
-  <text transform="translate(417.18 262.56) rotate(104.19)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">a</tspan></text>
-  <text transform="translate(410.22 290.47) rotate(112.98)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">n</tspan></text>
-  <text transform="translate(399.07 317) rotate(121.74)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">t</tspan></text>
-  <text transform="translate(384 341.53) rotate(130.44)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">,</tspan></text>
-  <text transform="translate(365.39 363.5) rotate(139.12)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
-  <text transform="translate(343.69 382.41) rotate(147.82)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">R</tspan></text>
-  <text transform="translate(319.4 397.81) rotate(156.57)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
-  <text transform="translate(293.02 409.34) rotate(165.36)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">s</tspan></text>
-  <text transform="translate(265.2 416.7) rotate(174.12)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
-  <text transform="translate(236.55 419.74) rotate(-177.26)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">u</tspan></text>
-  <text transform="translate(207.82 418.46) rotate(-168.55)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
-  <text transform="translate(179.58 412.84) rotate(-159.75)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">c</tspan></text>
-  <text transform="translate(152.54 402.96) rotate(-150.98)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
-  <text transform="translate(127.35 389.08) rotate(-142.27)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
-  <text transform="translate(104.51 371.53) rotate(-133.58)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">I</tspan></text>
-  <text transform="translate(84.6 350.74) rotate(-124.89)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">n</tspan></text>
-  <text transform="translate(68.05 327.18) rotate(-116.15)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">v</tspan></text>
-  <text transform="translate(55.29 301.4) rotate(-107.37)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
-  <text transform="translate(46.61 273.96) rotate(-98.59)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">s</tspan></text>
-  <text transform="translate(42 245.62) rotate(-89.07)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">t</tspan></text>
-  <text transform="translate(42.16 216.71) rotate(-81.27)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">i</tspan></text>
-  <text transform="translate(46.43 188.26) rotate(-72.49)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">g</tspan></text>
-  <text transform="translate(55 160.79) rotate(-63.71)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">a</tspan></text>
-  <text transform="translate(67.68 134.94) rotate(-54.97)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">t</tspan></text>
-  <text transform="translate(84.12 111.32) rotate(-46.28)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
-  <text transform="translate(103.96 90.44) rotate(-37.59)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
+export const circleTexts: Map<string, string> = new Map([
+  [
+    "ele",
+    `<g id="Layer_3" data-name="Layer 3">
+<text transform="translate(132.65 69.04) rotate(-26.74)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 700;"><tspan x="0" y="0"> </tspan></text>
+<text transform="translate(158.32 56) rotate(-17.95)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 700;"><tspan x="0" y="0">E</tspan></text>
+<text transform="translate(185.66 47.05) rotate(-9.17)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 700;"><tspan x="0" y="0">l</tspan></text>
+<text transform="translate(214.11 42.49) rotate(-.93)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 700;"><tspan x="0" y="0">e</tspan></text>
+<text transform="translate(242.85 42.02) rotate(8.15)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 700;"><tspan x="0" y="0"> </tspan></text>
+<text transform="translate(271.34 46) rotate(16.92)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">S</tspan></text>
+<text transform="translate(298.92 54.3) rotate(25.72)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">h</tspan></text>
+<text transform="translate(324.88 66.7) rotate(34.45)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">a</tspan></text>
+<text transform="translate(348.67 82.91) rotate(43.14)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">p</tspan></text>
+<text transform="translate(369.75 102.54) rotate(51.83)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
+<text transform="translate(387.61 125.1) rotate(60.54)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
+<text transform="translate(401.84 150.1) rotate(69.31)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">,</tspan></text>
+<text transform="translate(412.1 176.99) rotate(78.1)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
+<text transform="translate(418.12 205.16) rotate(86.83)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">P</tspan></text>
+<text transform="translate(419.81 233.89) rotate(95.44)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">l</tspan></text>
+<text transform="translate(417.18 262.56) rotate(104.19)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">a</tspan></text>
+<text transform="translate(410.22 290.47) rotate(112.98)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">n</tspan></text>
+<text transform="translate(399.07 317) rotate(121.74)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">t</tspan></text>
+<text transform="translate(384 341.53) rotate(130.44)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">,</tspan></text>
+<text transform="translate(365.39 363.5) rotate(139.12)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
+<text transform="translate(343.69 382.41) rotate(147.82)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">R</tspan></text>
+<text transform="translate(319.4 397.81) rotate(156.57)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
+<text transform="translate(293.02 409.34) rotate(165.36)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">s</tspan></text>
+<text transform="translate(265.2 416.7) rotate(174.12)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
+<text transform="translate(236.55 419.74) rotate(-177.26)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">u</tspan></text>
+<text transform="translate(207.82 418.46) rotate(-168.55)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
+<text transform="translate(179.58 412.84) rotate(-159.75)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">c</tspan></text>
+<text transform="translate(152.54 402.96) rotate(-150.98)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
+<text transform="translate(127.35 389.08) rotate(-142.27)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
+<text transform="translate(104.51 371.53) rotate(-133.58)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">I</tspan></text>
+<text transform="translate(84.6 350.74) rotate(-124.89)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">n</tspan></text>
+<text transform="translate(68.05 327.18) rotate(-116.15)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">v</tspan></text>
+<text transform="translate(55.29 301.4) rotate(-107.37)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
+<text transform="translate(46.61 273.96) rotate(-98.59)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">s</tspan></text>
+<text transform="translate(42 245.62) rotate(-89.07)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">t</tspan></text>
+<text transform="translate(42.16 216.71) rotate(-81.27)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">i</tspan></text>
+<text transform="translate(46.43 188.26) rotate(-72.49)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">g</tspan></text>
+<text transform="translate(55 160.79) rotate(-63.71)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">a</tspan></text>
+<text transform="translate(67.68 134.94) rotate(-54.97)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">t</tspan></text>
+<text transform="translate(84.12 111.32) rotate(-46.28)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
+<text transform="translate(103.96 90.44) rotate(-37.59)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 50px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
 </g>`,
-  rama: `<g id="Layer_3" data-name="Layer 3">
+  ],
+  [
+    "rama",
+    `<g id="Layer_3" data-name="Layer 3">
 <text transform="translate(145.57 82.4) rotate(-25.42)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 66px; font-weight: 700;"><tspan x="0" y="0">R</tspan></text>
 <text transform="translate(179.35 66.12) rotate(-13.98)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 66px; font-weight: 700;"><tspan x="0" y="0">a</tspan></text>
 <text transform="translate(215.72 56.86) rotate(-2.62)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 66px; font-weight: 700;"><tspan x="0" y="0">m</tspan></text>
@@ -111,82 +116,91 @@ export const circleTexts = {
 <text transform="translate(76.97 155.08) rotate(-55.89)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 66px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
 <text transform="translate(97.85 123.89) rotate(-44.58)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 66px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
 </g>`,
-  adam: `<g id="Layer_3" data-name="Layer 3">
-  <text transform="translate(139.11 75.73) rotate(-26.08)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 700;"><tspan x="0" y="0">A</tspan></text>
-  <text transform="translate(168.85 61.01) rotate(-15.96)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 700;"><tspan x="0" y="0">d</tspan></text>
-  <text transform="translate(200.71 51.76) rotate(-5.86)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 700;"><tspan x="0" y="0">a</tspan></text>
-  <text transform="translate(233.71 48.24) rotate(4.07)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 700;"><tspan x="0" y="0">m</tspan></text>
-  <text transform="translate(266.81 50.44) rotate(14.14)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
-  <text transform="translate(299.01 58.4) rotate(24.26)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">S</tspan></text>
-  <text transform="translate(329.31 71.91) rotate(34.33)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">h</tspan></text>
-  <text transform="translate(356.81 90.52) rotate(44.35)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">a</tspan></text>
-  <text transform="translate(380.62 113.6) rotate(54.35)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">p</tspan></text>
-  <text transform="translate(400.09 140.49) rotate(64.42)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
-  <text transform="translate(414.55 170.34) rotate(74.54)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
-  <text transform="translate(423.52 202.27) rotate(84.62)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">,</tspan></text>
-  <text transform="translate(426.77 235.3) rotate(94.55)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
-  <text transform="translate(424.29 268.4) rotate(104.63)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">C</tspan></text>
-  <text transform="translate(416.06 300.5) rotate(114.74)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
-  <text transform="translate(402.29 330.7) rotate(124.82)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">m</tspan></text>
-  <text transform="translate(383.47 358.01) rotate(134.82)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">p</tspan></text>
-  <text transform="translate(360.17 381.66) rotate(144.83)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">l</tspan></text>
-  <text transform="translate(333.13 400.89) rotate(154.89)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
-  <text transform="translate(303.17 415.09) rotate(165.01)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">t</tspan></text>
-  <text transform="translate(271.16 423.8) rotate(175.09)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
-  <text transform="translate(238.08 426.78) rotate(-174.97)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
-  <text transform="translate(205.03 424.03) rotate(-164.89)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">,</tspan></text>
-  <text transform="translate(172.96 415.51) rotate(-154.76)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
-  <text transform="translate(142.91 401.5) rotate(-144.71)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">C</tspan></text>
-  <text transform="translate(115.75 382.45) rotate(-134.7)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
-  <text transform="translate(92.29 358.95) rotate(-124.69)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
-  <text transform="translate(73.29 331.76) rotate(-114.62)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
-  <text transform="translate(59.34 301.66) rotate(-104.5)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">d</tspan></text>
-  <text transform="translate(50.9 269.58) rotate(-94.42)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">i</tspan></text>
-  <text transform="translate(48.2 236.5) rotate(-84.49)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">n</tspan></text>
-  <text transform="translate(51.24 203.47) rotate(-74.41)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">a</tspan></text>
-  <text transform="translate(60.02 171.48) rotate(-64.28)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">t</tspan></text>
-  <text transform="translate(74.28 141.54) rotate(-54.23)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
-  <text transform="translate(93.57 114.52) rotate(-44.22)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
+  ],
+  [
+    "adam",
+    `<g id="Layer_3" data-name="Layer 3">
+<text transform="translate(139.11 75.73) rotate(-26.08)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 700;"><tspan x="0" y="0">A</tspan></text>
+<text transform="translate(168.85 61.01) rotate(-15.96)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 700;"><tspan x="0" y="0">d</tspan></text>
+<text transform="translate(200.71 51.76) rotate(-5.86)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 700;"><tspan x="0" y="0">a</tspan></text>
+<text transform="translate(233.71 48.24) rotate(4.07)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 700;"><tspan x="0" y="0">m</tspan></text>
+<text transform="translate(266.81 50.44) rotate(14.14)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
+<text transform="translate(299.01 58.4) rotate(24.26)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">S</tspan></text>
+<text transform="translate(329.31 71.91) rotate(34.33)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">h</tspan></text>
+<text transform="translate(356.81 90.52) rotate(44.35)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">a</tspan></text>
+<text transform="translate(380.62 113.6) rotate(54.35)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">p</tspan></text>
+<text transform="translate(400.09 140.49) rotate(64.42)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
+<text transform="translate(414.55 170.34) rotate(74.54)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
+<text transform="translate(423.52 202.27) rotate(84.62)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">,</tspan></text>
+<text transform="translate(426.77 235.3) rotate(94.55)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
+<text transform="translate(424.29 268.4) rotate(104.63)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">C</tspan></text>
+<text transform="translate(416.06 300.5) rotate(114.74)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
+<text transform="translate(402.29 330.7) rotate(124.82)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">m</tspan></text>
+<text transform="translate(383.47 358.01) rotate(134.82)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">p</tspan></text>
+<text transform="translate(360.17 381.66) rotate(144.83)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">l</tspan></text>
+<text transform="translate(333.13 400.89) rotate(154.89)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
+<text transform="translate(303.17 415.09) rotate(165.01)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">t</tspan></text>
+<text transform="translate(271.16 423.8) rotate(175.09)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
+<text transform="translate(238.08 426.78) rotate(-174.97)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
+<text transform="translate(205.03 424.03) rotate(-164.89)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">,</tspan></text>
+<text transform="translate(172.96 415.51) rotate(-154.76)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
+<text transform="translate(142.91 401.5) rotate(-144.71)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">C</tspan></text>
+<text transform="translate(115.75 382.45) rotate(-134.7)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
+<text transform="translate(92.29 358.95) rotate(-124.69)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
+<text transform="translate(73.29 331.76) rotate(-114.62)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
+<text transform="translate(59.34 301.66) rotate(-104.5)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">d</tspan></text>
+<text transform="translate(50.9 269.58) rotate(-94.42)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">i</tspan></text>
+<text transform="translate(48.2 236.5) rotate(-84.49)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">n</tspan></text>
+<text transform="translate(51.24 203.47) rotate(-74.41)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">a</tspan></text>
+<text transform="translate(60.02 171.48) rotate(-64.28)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">t</tspan></text>
+<text transform="translate(74.28 141.54) rotate(-54.23)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
+<text transform="translate(93.57 114.52) rotate(-44.22)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
 </g>`,
-  ella: `<g id="Layer_3" data-name="Layer 3">
-  <text transform="translate(137.51 74.05) rotate(-26.24)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 700;"><tspan x="0" y="0">E</tspan></text>
-  <text transform="translate(166.25 59.74) rotate(-16.44)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 700;"><tspan x="0" y="0">l</tspan></text>
-  <text transform="translate(196.96 50.54) rotate(-6.68)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 700;"><tspan x="0" y="0">l</tspan></text>
-  <text transform="translate(228.85 46.69) rotate(2.94)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 700;"><tspan x="0" y="0">a</tspan></text>
-  <text transform="translate(260.92 48.2) rotate(12.66)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
-  <text transform="translate(292.24 55.1) rotate(22.45)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">S</tspan></text>
-  <text transform="translate(321.94 67.24) rotate(32.21)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">h</tspan></text>
-  <text transform="translate(349.16 84.24) rotate(41.9)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">a</tspan></text>
-  <text transform="translate(373.14 105.59) rotate(51.58)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">p</tspan></text>
-  <text transform="translate(393.18 130.65) rotate(61.29)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
-  <text transform="translate(408.71 158.73) rotate(71.07)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
-  <text transform="translate(419.24 189.05) rotate(80.86)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">,</tspan></text>
-  <text transform="translate(424.58 220.6) rotate(90.93)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
-  <text transform="translate(424.31 252.81) rotate(100.18)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">I</tspan></text>
-  <text transform="translate(418.76 284.42) rotate(109.98)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">m</tspan></text>
-  <text transform="translate(407.92 314.61) rotate(119.75)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">p</tspan></text>
-  <text transform="translate(392.1 342.54) rotate(129.46)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">l</tspan></text>
-  <text transform="translate(371.8 367.41) rotate(139.13)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
-  <text transform="translate(347.63 388.5) rotate(148.82)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">m</tspan></text>
-  <text transform="translate(320.24 405.23) rotate(158.59)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
-  <text transform="translate(290.4 417.06) rotate(168.39)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">n</tspan></text>
-  <text transform="translate(259 423.63) rotate(178.09)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">t</tspan></text>
-  <text transform="translate(226.91 424.84) rotate(-172.28)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
-  <text transform="translate(195.09 420.66) rotate(-162.5)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
-  <text transform="translate(164.45 411.14) rotate(-152.72)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">,</tspan></text>
-  <text transform="translate(135.88 396.54) rotate(-142.99)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
-  <text transform="translate(110.19 377.33) rotate(-133.32)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">T</tspan></text>
-  <text transform="translate(88.06 354.06) rotate(-123.63)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
-  <text transform="translate(70.18 327.43) rotate(-113.89)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">a</tspan></text>
-  <text transform="translate(57.07 298.14) rotate(-104.09)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">m</tspan></text>
-  <text transform="translate(49.14 267.06) rotate(-94.35)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">w</tspan></text>
-  <text transform="translate(46.57 235.04) rotate(-84.74)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
-  <text transform="translate(49.38 203.07) rotate(-74.99)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
-  <text transform="translate(57.57 172.04) rotate(-65.19)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">k</tspan></text>
-  <text transform="translate(70.92 142.87) rotate(-55.45)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
-  <text transform="translate(89.02 116.36) rotate(-45.77)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
+  ],
+  [
+    "ella",
+    `<g id="Layer_3" data-name="Layer 3">
+<text transform="translate(137.51 74.05) rotate(-26.24)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 700;"><tspan x="0" y="0">E</tspan></text>
+<text transform="translate(166.25 59.74) rotate(-16.44)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 700;"><tspan x="0" y="0">l</tspan></text>
+<text transform="translate(196.96 50.54) rotate(-6.68)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 700;"><tspan x="0" y="0">l</tspan></text>
+<text transform="translate(228.85 46.69) rotate(2.94)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 700;"><tspan x="0" y="0">a</tspan></text>
+<text transform="translate(260.92 48.2) rotate(12.66)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
+<text transform="translate(292.24 55.1) rotate(22.45)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">S</tspan></text>
+<text transform="translate(321.94 67.24) rotate(32.21)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">h</tspan></text>
+<text transform="translate(349.16 84.24) rotate(41.9)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">a</tspan></text>
+<text transform="translate(373.14 105.59) rotate(51.58)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">p</tspan></text>
+<text transform="translate(393.18 130.65) rotate(61.29)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
+<text transform="translate(408.71 158.73) rotate(71.07)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
+<text transform="translate(419.24 189.05) rotate(80.86)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">,</tspan></text>
+<text transform="translate(424.58 220.6) rotate(90.93)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
+<text transform="translate(424.31 252.81) rotate(100.18)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">I</tspan></text>
+<text transform="translate(418.76 284.42) rotate(109.98)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">m</tspan></text>
+<text transform="translate(407.92 314.61) rotate(119.75)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">p</tspan></text>
+<text transform="translate(392.1 342.54) rotate(129.46)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">l</tspan></text>
+<text transform="translate(371.8 367.41) rotate(139.13)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
+<text transform="translate(347.63 388.5) rotate(148.82)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">m</tspan></text>
+<text transform="translate(320.24 405.23) rotate(158.59)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
+<text transform="translate(290.4 417.06) rotate(168.39)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">n</tspan></text>
+<text transform="translate(259 423.63) rotate(178.09)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">t</tspan></text>
+<text transform="translate(226.91 424.84) rotate(-172.28)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
+<text transform="translate(195.09 420.66) rotate(-162.5)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
+<text transform="translate(164.45 411.14) rotate(-152.72)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">,</tspan></text>
+<text transform="translate(135.88 396.54) rotate(-142.99)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0"> </tspan></text>
+<text transform="translate(110.19 377.33) rotate(-133.32)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">T</tspan></text>
+<text transform="translate(88.06 354.06) rotate(-123.63)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
+<text transform="translate(70.18 327.43) rotate(-113.89)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">a</tspan></text>
+<text transform="translate(57.07 298.14) rotate(-104.09)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">m</tspan></text>
+<text transform="translate(49.14 267.06) rotate(-94.35)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">w</tspan></text>
+<text transform="translate(46.57 235.04) rotate(-84.74)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
+<text transform="translate(49.38 203.07) rotate(-74.99)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
+<text transform="translate(57.57 172.04) rotate(-65.19)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">k</tspan></text>
+<text transform="translate(70.92 142.87) rotate(-55.45)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
+<text transform="translate(89.02 116.36) rotate(-45.77)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 56px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
 </g>`,
-  marats: `<g id="Layer_3" data-name="Layer 3">
+  ],
+  [
+    "marats",
+    `<g id="Layer_3" data-name="Layer 3">
 <text transform="translate(128.58 64.86) rotate(-27.16)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 45px; font-weight: 700;"><tspan x="0" y="0">M</tspan></text>
 <text transform="translate(151.67 52.93) rotate(-19.23)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 45px; font-weight: 700;"><tspan x="0" y="0">a</tspan></text>
 <text transform="translate(176.19 44.31) rotate(-11.28)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 45px; font-weight: 700;"><tspan x="0" y="0">r</tspan></text>
@@ -232,7 +246,10 @@ export const circleTexts = {
 <text transform="translate(62.94 131.82) rotate(-55.79)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 45px; font-weight: 200;"><tspan x="0" y="0">o</tspan></text>
 <text transform="translate(77.49 110.29) rotate(-47.94)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 45px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
 </g>`,
-  rene: `<g id="Layer_3" data-name="Layer 3">
+  ],
+  [
+    "rene",
+    `<g id="Layer_3" data-name="Layer 3">
 <text transform="translate(151.17 88.24) rotate(-24.85)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 73px; font-weight: 700;"><tspan x="0" y="0">R</tspan></text>
 <text transform="translate(188.53 70.63) rotate(-12.27)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 73px; font-weight: 700;"><tspan x="0" y="0">e</tspan></text>
 <text transform="translate(228.89 61.32) rotate(.93)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 73px; font-weight: 700;"><tspan x="0" y="0">n</tspan></text>
@@ -262,7 +279,10 @@ export const circleTexts = {
 <text transform="translate(75.82 175.13) rotate(-60.04)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 73px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
 <text transform="translate(96.21 139.23) rotate(-47.58)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 73px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
 </g>`,
-  vanya: `<g id="Layer_3" data-name="Layer 3">
+  ],
+  [
+    "vanya",
+    `<g id="Layer_3" data-name="Layer 3">
 <text transform="translate(139.12 75.73) rotate(-26.08)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 700;"><tspan x="0" y="0">V</tspan></text>
 <text transform="translate(168.85 61.01) rotate(-15.96)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 700;"><tspan x="0" y="0">a</tspan></text>
 <text transform="translate(200.71 51.76) rotate(-5.86)" style="fill: #000; font-family: MDIOTrial-Bold, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 700;"><tspan x="0" y="0">n</tspan></text>
@@ -299,7 +319,8 @@ export const circleTexts = {
 <text transform="translate(74.28 141.54) rotate(-54.23)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">e</tspan></text>
 <text transform="translate(93.57 114.52) rotate(-44.22)" style="fill: #000; font-family: MDIOTrial-Thin, &apos;MD IO Trial&apos;; font-size: 58px; font-weight: 200;"><tspan x="0" y="0">r</tspan></text>
 </g>`,
-};
+  ],
+]);
 
 export const getChaptersWidth = () => {
   let totalWidth = 0;
