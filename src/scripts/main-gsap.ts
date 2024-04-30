@@ -50,8 +50,8 @@ const initTimeline = () => {
     } else {
       timeline.fromTo(
         `.parallax-plane-1-${x}`,
-        { x: "200px" },
-        { x: "-200px", ease: EASE, duration: 1 },
+        { x: "100px" },
+        { x: "-100px", ease: EASE, duration: 1 },
         `label-${x}-=0.5`
       );
     }

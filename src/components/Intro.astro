@@ -10,19 +10,29 @@ const { gsapId } = Astro.props;
   id="intro"
   class="visible-page-width h-full flex flex-col items-center mx-80"
 >
-  <div class="title-card-half flex flex-col justify-center items-center">
-    <p class="text-white">
+  <div
+    class="title-card-half flex flex-col justify-center items-center text-white"
+  >
+    <p>
       Hi! Welcome to our project microsite. On this website you will discover
-      what a group of Deviners did when asked to come up with a Smart City
-      Solution. What product(s) they came up with, where they struggled, how
-      they worked together and if they succeeded.
+      what a group of Deviners did when asked to come up with the following:
+    </p>
+    <p
+      class=`parallax-plane-1-${gsapId} text-center font-io-bold italic text-xl text-orange`
+    >
+      "Come up with a Smart City Solution that provides answers or solutions to
+      a real urban need."
+    </p>
+    <p>
+      Wondering what product(s) they came up with, where they struggled, how
+      they worked together and if they succeeded? <b
+        >You're at the right place!</b
+      >
     </p>
     <p class="text-white font-system-black text-xl">Have fun!</p>
   </div>
   <div class="h-[30px]"></div>
-  <div
-    class=`parallax-plane-1-${gsapId} title-card-half flex flex-col justify-center items-center`
-  >
+  <div class="title-card-half flex flex-col justify-center items-center">
     <h4 class="mb-40">Some Guidelines</h4>
     <ul class="guidelines-list flex flex-col gap-40">
       <li>
@@ -43,16 +53,16 @@ const { gsapId } = Astro.props;
       </li>
     </ul>
   </div>
-</div>
 
-<style>
-  .title-card-half {
-    height: calc(50% - 15px);
-  }
-
-  .guidelines-list {
-    li {
-      @apply flex flex-row items-center gap-[20px];
+  <style>
+    .title-card-half {
+      height: calc(50% - 15px);
     }
-  }
-</style>
+
+    .guidelines-list {
+      li {
+        @apply flex flex-row items-center gap-[20px];
+      }
+    }
+  </style>
+</div>
