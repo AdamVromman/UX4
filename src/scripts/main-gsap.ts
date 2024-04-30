@@ -80,7 +80,7 @@ const initTimeline = () => {
         `.parallax-plane-1-${x}`,
         { x: "100px" },
         { x: "-100px", ease: EASE, duration: width },
-        `label-${x}-=0.5`
+        `label-${x}-=${width / 2}`
       );
     }
 
