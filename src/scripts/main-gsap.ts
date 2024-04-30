@@ -3,8 +3,13 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Draggable } from "gsap/Draggable";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
+import { chapters, getChaptersWidth } from "./services";
 
-const DURATION = 34,
+const scroller = document.getElementById("scroller");
+
+console.log(scroller?.getBoundingClientRect().width);
+
+const DURATION = 100,
   EASE = "none",
   START = 0;
 
@@ -18,7 +23,14 @@ const initTimeline = () => {
       start: "top top",
       scrub: 1,
       end: 30000,
-      snap: { snapTo: "labels", duration: 0.1, ease: "power2.out" },
+      // snap: {
+      //   snapTo: "labels",
+      //   duration: 0.1,
+      //   ease: "power2.out",
+      //   onComplete: () => {
+      //     console.log(scroller?.style.transform);
+      //   },
+      // },
     },
   });
 
@@ -32,30 +44,48 @@ const initTimeline = () => {
     { rotate: -1080, ease: EASE, duration: DURATION },
     START
   );
-  timeline.to(
+  timeline.fromTo(
     "#scroller",
-    { x: "-100%", ease: EASE, duration: DURATION },
+    { x: -document.body.clientWidth },
+    {
+      x: "-100%",
+      ease: EASE,
+      duration: DURATION,
+    },
     START
   );
 
-  for (let x = 0; x < 34; x++) {
-    timeline.addLabel(`label-${x}`, x);
+  let count = 0;
 
-    if (x === 0) {
+  chapters.forEach((x, index) => {
+    const chapter = document.getElementById(x);
+
+    let width = index;
+
+    if (chapter) {
+      const chapterWidth = chapter.getBoundingClientRect().width;
+      width = (chapterWidth / getChaptersWidth()) * 100;
+    }
+
+    timeline.addLabel(`label-${x}`, count);
+
+    if (index === 0) {
       timeline.to(
         `.parallax-plane-1-${x}`,
-        { x: "-200px", ease: EASE, duration: 1 },
+        { x: "-200px", ease: EASE, duration: width },
         `label-${x}`
       );
     } else {
       timeline.fromTo(
         `.parallax-plane-1-${x}`,
         { x: "100px" },
-        { x: "-100px", ease: EASE, duration: 1 },
+        { x: "-100px", ease: EASE, duration: width },
         `label-${x}-=0.5`
       );
     }
-  }
+
+    count += width;
+  });
 };
 
 window.addEventListener("load", initTimeline);

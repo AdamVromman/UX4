@@ -1,17 +1,13 @@
 ---
-interface Props {
-  gsapId: string;
-}
 
-const { gsapId } = Astro.props;
 ---
 
 <div
   id="title-card"
-  class="visible-page-width h-full flex flex-col items-center"
+  class="chapter visible-page-width h-full flex flex-col items-center"
 >
   <div
-    class=`parallax-plane-1-${gsapId} title-card-half flex flex-col justify-center items-center`
+    class=`parallax-plane-1-title-card title-card-half flex flex-col justify-center items-center`
   >
     <h1 class="font-io-semibold text-white text-7xl">SMART CITIES:</h1>
   </div>
@@ -21,7 +17,7 @@ const { gsapId } = Astro.props;
     </h2>
   </div>
   <div
-    class=`parallax-plane-1-${gsapId} title-card-half font-semibold flex flex-col justify-center items-center`
+    class=`parallax-plane-1-title-card title-card-half font-semibold flex flex-col justify-center items-center`
   >
     <h2 class="font-io-semibold text-grey text-4xl">
       By Elie, Marats, Ella & Adam

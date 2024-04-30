@@ -39,48 +39,52 @@ import UserJourneys from "../components/chapters/UserJourneys.astro";
 <Layout title="Welcome to Astro.">
   <main
     id="main"
-    class="hidden main:block w-full h-screen overflow-y-hidden overflow-x-clip relative"
+    class="hidden main:flex flex-row w-full h-screen overflow-y-hidden overflow-x-clip relative"
   >
     <div class="left-0 top-0 w-full h-full flex flex-col absolute z-0">
       <div class="bg-blue w-full grow"></div>
       <div class="bg-green h-[30px] w-full"></div>
       <div class="bg-white w-full grow"></div>
     </div>
-    <div id="scroller" class="h-full w-max relative z-10 flex flex-row">
-      <TitleCard gsapId="0" />
-      <Intro gsapId="1" />
-      <ProjectPoster gsapId="2" />
-      <Start gsapId="3" />
-      <InitialBrainstorm gsapId="4" />
-      <TargetAudience gsapId="5" />
-      <EcosystemMapping gsapId="6" />
-      <TargetAudienceInterview gsapId="7" />
-      <DesignPrinciples gsapId="8" />
-      <CompetitorAnalysis gsapId="9" />
-      <Alphabet gsapId="10" />
-      <FlippedAssumptions gsapId="11" />
-      <Biases gsapId="12" />
-      <Crazy8 gsapId="13" />
-      <RandomWords gsapId="14" />
-      <ConvergingVoting gsapId="15" />
-      <ConvergingPersonas gsapId="16" />
-      <ConvergingFeatureMatrix gsapId="17" />
-      <Goals gsapId="18" />
-      <WrittenGuidelines gsapId="19" />
-      <UserScenarios gsapId="20" />
-      <Storyboards gsapId="21" />
-      <UserStories gsapId="22" />
-      <UserJourneys gsapId="23" />
-      <PrototypeTechnicalLogic gsapId="24" />
-      <Prototype1 gsapId="25" />
-      <Prototype2 gsapId="26" />
-      <Prototype3 gsapId="27" />
-      <PrototypeApp gsapId="28" />
-      <PrototypeIPad gsapId="29" />
-      <Test1 gsapId="30" />
-      <Test2 gsapId="31" />
-      <Test3 gsapId="32" />
-      <Conclusions gsapId="33" />
+    <div class="min-w-full h-full"></div>
+    <div
+      id="scroller"
+      class="h-full w-max relative z-10 flex flex-row pr-[25vh]"
+    >
+      <TitleCard />
+      <Intro />
+      <ProjectPoster />
+      <Start />
+      <InitialBrainstorm />
+      <TargetAudience />
+      <EcosystemMapping />
+      <TargetAudienceInterview />
+      <DesignPrinciples />
+      <CompetitorAnalysis />
+      <Alphabet />
+      <FlippedAssumptions />
+      <Biases />
+      <Crazy8 />
+      <RandomWords />
+      <ConvergingVoting />
+      <ConvergingPersonas />
+      <ConvergingFeatureMatrix />
+      <Goals />
+      <WrittenGuidelines />
+      <UserScenarios />
+      <Storyboards />
+      <UserStories />
+      <UserJourneys />
+      <PrototypeTechnicalLogic />
+      <Prototype1 />
+      <Prototype2 />
+      <Prototype3 />
+      <PrototypeApp />
+      <PrototypeIPad />
+      <Test1 />
+      <Test2 />
+      <Test3 />
+      <Conclusions />
     </div>
     <div class="h-full fixed right-0 top-0 translate-x-[50%] z-50">
       <svg

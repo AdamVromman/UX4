@@ -1,14 +1,10 @@
 ---
-interface Props {
-  gsapId: string;
-}
 
-const { gsapId } = Astro.props;
 ---
 
 <div
   id="intro"
-  class="visible-page-width h-full flex flex-col items-center mx-80"
+  class="chapter visible-page-width h-full flex flex-col items-center"
 >
   <div
     class="title-card-half flex flex-col justify-center items-center text-white"
@@ -18,7 +14,7 @@ const { gsapId } = Astro.props;
       what a group of Deviners did when asked to come up with the following:
     </p>
     <p
-      class=`parallax-plane-1-${gsapId} text-center font-io-bold italic text-xl text-orange`
+      class=`parallax-plane-1-intro text-center font-io-bold italic text-xl text-orange`
     >
       "Come up with a Smart City Solution that provides answers or solutions to
       a real urban need."
