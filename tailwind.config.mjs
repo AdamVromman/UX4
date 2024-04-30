@@ -5,10 +5,25 @@ const SIZES = {
   20: "20px",
   40: "40px",
   80: "80px",
+  200: "200px",
 };
 
 export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
+  safelist: [
+    {
+      pattern: /bg-(green|blue|grey|orange)/,
+    },
+    {
+      pattern: /w-(small|big)/,
+    },
+    {
+      pattern: /h-(small|big)/,
+    },
+    {
+      pattern: /min-w-(small|big)/,
+    },
+  ],
   theme: {
     extend: {
       colors: {
@@ -35,9 +50,23 @@ export default {
         main: [{ raw: "(min-height: 500px) and (min-width: 1000px)" }],
       },
       padding: SIZES,
-      margins: SIZES,
+      margin: SIZES,
       gap: SIZES,
+      inset: SIZES,
+      width: {
+        small: "90px",
+        big: "130px",
+      },
+      height: {
+        small: "90px",
+        big: "130px",
+      },
+      minWidth: {
+        small: "90px",
+        big: "130px",
+      },
       fontFamily: {
+        "io-thin": ["MD IO thin"],
         "io-regular": ["MD IO Regular"],
         "io-semibold": ["MD IO Semibold"],
         "io-bold": ["MD IO Bold"],

@@ -1,0 +1,16 @@
+---
+interface Props {
+  name: string;
+  role: string;
+  color: "green" | "orange" | "grey" | "blue";
+  size: "big" | "small";
+}
+
+const { name, role, color, size } = Astro.props;
+---
+
+<div
+  class=`bg-${color} min-w-${size} w-${size} h-${size} aspect-square rounded-full flex justify-center items-center`
+>
+  <img src=`/head-${name.toLowerCase()}.png` />
+</div>

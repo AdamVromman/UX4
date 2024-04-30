@@ -37,11 +37,11 @@ const initTimeline = () => {
     START
   );
 
-  timeline.to(
-    ".parallax-plane-1",
-    { x: "200px", ease: EASE, duration: DURATION },
-    START
-  );
+  // timeline.to(
+  //   ".parallax-plane-1",
+  //   { x: "-200px", ease: EASE, duration: DURATION },
+  //   START
+  // );
 };
 
 window.addEventListener("load", initTimeline);

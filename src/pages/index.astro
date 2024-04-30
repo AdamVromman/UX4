@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import TitleCard from "../components/TitleCard.astro";
 import Intro from "../components/Intro.astro";
+import Start from "../components/chapters/Start.astro";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -17,6 +18,7 @@ import Intro from "../components/Intro.astro";
     <div id="scroller" class="h-full w-max relative z-10 flex flex-row">
       <TitleCard />
       <Intro />
+      <Start />
     </div>
     <div class="h-full fixed right-0 top-0 translate-x-[50%] z-50">
       <svg

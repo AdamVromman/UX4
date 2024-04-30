@@ -1,0 +1,118 @@
+---
+import Head from "../Head.astro";
+---
+
+<div id="start" class="visible-page-width h-full relative w-max">
+  <span class="text-green font-io-thin text-7xl relative top-[5%] left-[40%]"
+    >February <span class="font-io-bold">2024</span></span
+  >
+  <div
+    class="title-line bg-green w-[3.5px] absolute left-[40%] translate-x-2 top-[5%] bottom-[25%] z-20"
+  >
+  </div>
+  <h3
+    class="text-white bottom-[25%] left-[40%] absolute whitespace-nowrap z-20"
+  >
+    <span class="font-io-bold">S</span>tart of the project.
+  </h3>
+
+  <div class="heads flex flex-row w-max absolute z-10">
+    <div class="heads-circle"></div>
+    <Head
+      color="orange"
+      name="Ele"
+      role="Plant, Resource Investigator"
+      size="big"
+    />
+    <Head
+      color="green"
+      name="Marats"
+      role="Specialist, Monitor Evaluator"
+      size="big"
+    />
+    <Head
+      color="blue"
+      name="Ella"
+      role="Plant, Resource Investigator"
+      size="big"
+    />
+    <Head
+      color="grey"
+      name="Adam"
+      role="Plant, Resource Investigator"
+      size="big"
+    />
+    <Head
+      color="orange"
+      name="Rama"
+      role="Entertainer, Toy Collector"
+      size="small"
+    />
+    <Head
+      color="green"
+      name="Vanya"
+      role="Pasta Maker, Prototype Tester"
+      size="small"
+    />
+    <Head
+      color="blue"
+      name="Rene"
+      role="Barker, Portable Heater"
+      size="small"
+    />
+  </div>
+
+  <!-- <svg
+    class="h-[75%] absolute bottom-0 z-0"
+    id="Layer_2"
+    data-name="Layer 2"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 500 405"
+  >
+    <defs>
+      <clipPath id="clippath">
+        <path
+          d="M500,405H0c0-138.07,111.93-250,250-250s250,111.93,250,250Z"
+          style="fill: none; stroke-width: 0px;"></path>
+      </clipPath>
+    </defs>
+    <g id="start-circle">
+      <path
+        id="start-circle-ball"
+        d="M500,405H0c0-138.07,111.93-250,250-250s250,111.93,250,250Z"
+        style="fill: #343437; stroke-width: 0px;"></path>
+      <line
+        id="start-circle-line-2"
+        x1="120"
+        y1="280"
+        x2="120"
+        style="fill: none; stroke: #d6fa00; stroke-miterlimit: 10;"></line>
+      <g style="clip-path: url(#clippath);">
+        <line
+          id="start-circle-line-1"
+          x1="120"
+          y1="280"
+          x2="120"
+          style="fill: none; stroke: #e0e6e6; stroke-miterlimit: 10;"></line>
+      </g>
+    </g>
+  </svg> -->
+</div>
+<style>
+  .heads {
+    top: calc(50vh + 15px);
+  }
+
+  .heads-circle {
+    @apply bg-grey rounded-full;
+    @apply aspect-square;
+
+    width: calc(100vh - 30px);
+  }
+
+  .title-line {
+    top: calc(5% + 108px);
+    bottom: calc(25% + 56px);
+  }
+</style>
