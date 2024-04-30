@@ -73,6 +73,10 @@ export default {
         "system-medium": ["MD System Medium"],
         "system-black": ["MD System Black"],
       },
+      animation: {
+        "spin-slow": "spin 5s linear infinite",
+        "spin-reverse": "spin 10s reverse linear infinite",
+      },
     },
   },
   plugins: [],
