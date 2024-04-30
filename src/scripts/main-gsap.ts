@@ -4,7 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Draggable } from "gsap/Draggable";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 
-const DURATION = 33,
+const DURATION = 34,
   EASE = "none",
   START = 0;
 
@@ -17,7 +17,7 @@ const initTimeline = () => {
       pin: true,
       start: "top top",
       scrub: 1,
-      end: 20000,
+      end: 30000,
     },
   });
 
@@ -40,13 +40,12 @@ const initTimeline = () => {
   for (let x = 0; x < 33; x++) {
     console.log(x);
     timeline.addLabel(`label-${x}`, x);
+    timeline.to(
+      `.parallax-plane-1-${x}`,
+      { x: "-200px", ease: EASE, duration: 1 },
+      `label-${x}${x > 0 ? "-=0.5" : ""}`
+    );
   }
-
-  // timeline.to(
-  //   ".parallax-plane-1",
-  //   { x: "-200px", ease: EASE, duration: DURATION },
-  //   START
-  // );
 };
 
 window.addEventListener("load", initTimeline);
