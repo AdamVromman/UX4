@@ -1,5 +1,6 @@
 ---
 import ChapterHead from "../ChapterHead.astro";
+import ConclusionBox from "../ConclusionBox.astro";
 ---
 
 <div
@@ -34,6 +35,14 @@ import ChapterHead from "../ChapterHead.astro";
       vibrant parts of the city.
     </p>
     <p>This is what we came up with:</p>
+  </div>
+  <div class="right-0 top-3/4 -translate-y-[50%] absolute">
+    <ConclusionBox chapter="target-audience" id={0} black={true}>
+      <span
+        >Target Audience: Elderly people living alone in the city of Kortrijk,
+        unable to visit the city centre frenquently.
+      </span>
+    </ConclusionBox>
   </div>
   <div
     class="p-40 rounded-[50px] absolute flex flex-col gap-20 bg-orange text-grey right-0 top-1/2 -translate-y-[50%] w-[500px]"

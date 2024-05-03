@@ -3,7 +3,12 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Draggable } from "gsap/Draggable";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
-import { brainstormAnimation, chapters, getChaptersWidth } from "./services";
+import {
+  brainstormAnimation,
+  chapters,
+  getChaptersWidth,
+  targetAudienceAnimation,
+} from "./services";
 
 const scroller = document.getElementById("scroller");
 
@@ -88,6 +93,7 @@ const initTimeline = () => {
   });
 
   timeline = brainstormAnimation(timeline);
+  timeline = targetAudienceAnimation(timeline);
 };
 
 window.addEventListener("load", initTimeline);

@@ -469,3 +469,14 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
 
   return tl;
 };
+
+export const targetAudienceAnimation = (tl: gsap.core.Timeline) => {
+  tl.fromTo(
+    "#conclusion-box-0-target-audience",
+    { x: -100, opacity: 0 },
+    { x: 300, zIndex: 100, opacity: 1, duration: 2 },
+    "label-target-audience+=2"
+  );
+
+  return tl;
+};
