@@ -2,59 +2,32 @@
 import Head from "../Head.astro";
 ---
 
-<div id="start" class="visible-page-width h-full relative">
+<div id="start" class="visible-page-width-disabled h-full relative">
   <span
-    class="parallax-plane-1-start text-green font-io-thin text-7xl relative top-[5%] left-[40%]"
+    class="parallax-plane-1-start text-green font-io-thin text-7xl relative top-[5%] left-[500px]"
     >February <span class="font-io-bold">2024</span></span
   >
   <div
-    class="title-line bg-green w-[3.5px] absolute left-[40%] translate-x-2 top-[5%] bottom-[25%] z-20"
+    class="title-line bg-green w-[3.5px] absolute translate-x-2 top-[5%] bottom-[25%] z-20 left-[500px]"
   >
   </div>
   <h3
-    class="parallax-plane-1-start text-orange bottom-[25%] left-[40%] absolute whitespace-nowrap z-20"
+    class="parallax-plane-1-start text-orange bottom-[25%] absolute whitespace-nowrap z-20 left-[500px]"
   >
     <span class="font-io-bold">S</span>tart of the project.
   </h3>
-  <div class="heads flex flex-row w-max relative z-10">
-    <div class="heads-circle"></div>
-    <Head
-      color="orange"
-      name="Ele"
-      role="Shaper, Plant, Resource Investigator"
-      size="130"
-    />
-    <Head
-      color="green"
-      name="Marats"
-      role="Shaper, Specialist, Monitor Evaluator"
-      size="130"
-    />
-    <Head
-      color="blue"
-      name="Ella"
-      role="Shaper, Implementer, Teamworker"
-      size="130"
-    />
-    <Head
-      color="grey"
-      name="Adam"
-      role="Shaper, Completer, Coordinator"
-      size="130"
-    />
-    <Head
-      color="orange"
-      name="Rama"
-      role="Entertainer, Toy Collector"
-      size="90"
-    />
-    <Head
-      color="green"
-      name="Vanya"
-      role="Pasta Maker, Prototype Tester"
-      size="90"
-    />
-    <Head color="blue" name="Rene" role="Barker, Portable Heater" size="90" />
+  <div class="heads flex flex-row w-max absolute z-10 left-600">
+    <div
+      class="absolute bg-grey rounded-full w-[800px] aspect-square -translate-x-[658px]"
+    >
+    </div>
+    <Head color="orange" name="Ele" size="130" />
+    <Head color="green" name="Marats" size="130" />
+    <Head color="blue" name="Ella" size="130" />
+    <Head color="grey" name="Adam" size="130" />
+    <Head color="orange" name="Rama" size="90" />
+    <Head color="green" name="Vanya" size="90" />
+    <Head color="blue" name="Rene" size="90" />
   </div>
 
   <!-- <svg
@@ -95,15 +68,12 @@ import Head from "../Head.astro";
   </svg> -->
 </div>
 <style>
-  .heads {
-    top: calc(50vh + 15px);
+  #start {
+    width: min(calc(100vw + 1000px), 2000px);
   }
 
-  .heads-circle {
-    @apply bg-grey rounded-full;
-    @apply aspect-square;
-
-    width: calc(100vh - 30px);
+  .heads {
+    top: calc(50vh + 15px);
   }
 
   .title-line {

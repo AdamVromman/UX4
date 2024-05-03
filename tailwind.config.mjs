@@ -9,13 +9,14 @@ const SIZES = {
   130: "130px",
   200: "200px",
   250: "250px",
+  600: "600px",
 };
 
 export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   safelist: [
     {
-      pattern: /bg-(green|blue|grey|orange)/,
+      pattern: /bg-(green|blue|grey|orange|white)/,
     },
     {
       pattern: /w-(90|130)/,
@@ -24,7 +25,10 @@ export default {
       pattern: /h-(90|130)/,
     },
     {
-      pattern: /min-w-(90|130)/,
+      pattern: /text-(green|blue|grey|orange|white)/,
+    },
+    {
+      pattern: /flex-col-reverse/,
     },
   ],
   theme: {

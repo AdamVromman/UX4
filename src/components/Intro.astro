@@ -4,7 +4,7 @@
 
 <div
   id="intro"
-  class="chapter visible-page-width h-full flex flex-col items-center"
+  class="chapter visible-page-width-disabled h-full flex flex-col items-center"
 >
   <div
     class="title-card-half flex flex-col justify-center items-center text-white"
@@ -51,6 +51,10 @@
   </div>
 
   <style>
+    #intro {
+      @apply min-w-[1500px];
+    }
+
     .title-card-half {
       height: calc(50% - 15px);
     }

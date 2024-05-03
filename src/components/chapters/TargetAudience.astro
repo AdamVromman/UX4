@@ -1,6 +1,46 @@
 ---
-
+import ChapterHead from "../ChapterHead.astro";
 ---
 
-<div id="target-audience" class="chapter h-full visible-page-width relative">
+<div
+  id="target-audience"
+  class="chapter h-full visible-page-width-disabled relative"
+>
+  <ChapterHead title="Target Audience." bottom={false} height={150}
+    ><span>
+      A Smart City Solution needs an audience. That target audience is the very
+      basis upon which we build our project, so it was important to describe it
+      well and early.
+    </span></ChapterHead
+  >
+  <div class="absolute top-[55%] left-80">
+    <p>
+      Since we had an idea in our mind that revolved around connecting a
+      neighbourhood, we naturally started thinking about people that have a hard
+      time connecting to their neighbourhood.
+    </p>
+    <p>
+      During emergencies like the Covid pandemic, droughts or floods, people are
+      often forced to stay inside more than usual. Visiting friends and family
+      is usually not possible and the risk of loneliness for people living
+      alone, increases.
+    </p>
+  </div>
+  <div class="absolute text-white left-[800px] top-[30%]">
+    <p>
+      Although we let go of the idea of emergencies early on, this group of
+      people stuck with us. We started thinking of how to connect the city
+      itself with the people that don't have the ability to visit the most
+      vibrant parts of the city.
+    </p>
+    <p>This is what we came up with:</p>
+  </div>
+  <div class="p-20 absolute flex flex-col gap-40 bg-orange text-grey right-0">
+    <p>Our target audience became elderly people, that lived alone.</p>
+  </div>
 </div>
+<style>
+  #target-audience {
+    @apply min-w-[1800px];
+  }
+</style>

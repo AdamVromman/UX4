@@ -4,7 +4,7 @@
 
 <div
   id="project-poster"
-  class="chapter h-full visible-page-width relative flex flex-col"
+  class="chapter h-full visible-page-width-disabled relative flex flex-col"
 >
   <div class="h-1/6 w-full flex flex-col justify-center gap-20">
     <h3 class="text-white px-40">Project poster.</h3>
@@ -165,3 +165,8 @@
     </div>
   </div>
 </div>
+<style>
+  #project-poster {
+    @apply min-w-[1700px];
+  }
+</style>
