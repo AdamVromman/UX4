@@ -1,5 +1,6 @@
 ---
 import ChapterHead from "../ChapterHead.astro";
+import ConclusionBox from "../ConclusionBox.astro";
 ---
 
 <div
@@ -88,9 +89,18 @@ import ChapterHead from "../ChapterHead.astro";
     BPM, blood levels, etc. he would feel different about it. Then he might go
     along with it.
   </p>
+  <div class="absolute left-[1600px] top-1/2 translate-y-[-50%]">
+    <ConclusionBox id={0} chapter="target-audience-interview" black={true}>
+      <span
+        >Both interviewees clearly felt some suspicion towards technology that
+        excessively monitors you, so we stepped away from any ideas that
+        involved invasive solutions.</span
+      ></ConclusionBox
+    >
+  </div>
 </div>
 <style>
   #target-audience-interview {
-    @apply min-w-[1600px];
+    @apply min-w-[2500px];
   }
 </style>
