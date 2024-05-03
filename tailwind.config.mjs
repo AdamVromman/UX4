@@ -5,7 +5,10 @@ const SIZES = {
   20: "20px",
   40: "40px",
   80: "80px",
+  90: "90px",
+  130: "130px",
   200: "200px",
+  250: "250px",
 };
 
 export default {
@@ -15,13 +18,13 @@ export default {
       pattern: /bg-(green|blue|grey|orange)/,
     },
     {
-      pattern: /w-(small|big)/,
+      pattern: /w-(90|130)/,
     },
     {
-      pattern: /h-(small|big)/,
+      pattern: /h-(90|130)/,
     },
     {
-      pattern: /min-w-(small|big)/,
+      pattern: /min-w-(90|130)/,
     },
   ],
   theme: {
@@ -53,18 +56,12 @@ export default {
       margin: SIZES,
       gap: SIZES,
       inset: SIZES,
-      width: {
-        small: "90px",
-        big: "130px",
-      },
-      height: {
-        small: "90px",
-        big: "130px",
-      },
-      minWidth: {
-        small: "90px",
-        big: "130px",
-      },
+      width: SIZES,
+      height: SIZES,
+      minWidth: SIZES,
+      minHeight: SIZES,
+      maxHeight: SIZES,
+      maxWidth: SIZES,
       fontFamily: {
         "io-thin": ["MD IO thin"],
         "io-regular": ["MD IO Regular"],

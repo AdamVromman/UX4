@@ -1,9 +1,9 @@
 export const chapters = [
   "title-card",
   "intro",
-  "project-poster",
   "start",
-  "brainstorms",
+  "project-poster",
+  "brainstorm",
   "target-audience",
   "ecosystem-mapping",
   "target-audience-interview",
@@ -15,19 +15,25 @@ export const chapters = [
   "crazy-8",
   "random-words",
   "converging-voting",
+  "goals",
   "converging-personas",
   "convering-feature-matrix",
-  "goals",
-  "written-guidelines",
   "user-scenarios",
+  "heads",
+  "written-guidelines",
   "storyboards",
   "user-stories",
   "user-journeys",
   "prototype-technical-logic",
-  "prototype-1",
-  "prototype-2",
-  "prototype-ipad",
-  "prototype-app",
+  "prototype-paper",
+  "prototype-lights",
+  "prototype-sound",
+  "wireflows-ipad",
+  "prototype-ipad-paper",
+  "prototype-ipad-figma",
+  "wireflows-app",
+  "prototype-app-paper",
+  "prototype-app-figma",
   "test-1",
   "test-2",
   "test-3",
@@ -331,4 +337,117 @@ export const getChaptersWidth = () => {
   }
 
   return totalWidth;
+};
+
+export const brainstormAnimation = (tl: gsap.core.Timeline) => {
+  tl.to(
+    "#post-it-0-brainstorm",
+    { left: "5%", top: "5%", rotate: -2, duration: 1.5, ease: "power1.inOut" },
+    "label-brainstorm-=1.5"
+  );
+  tl.to(
+    "#post-it-1-brainstorm",
+    { left: "77%", top: "8%", rotate: 4, duration: 1.5, ease: "power1.inOut" },
+    "label-brainstorm-=1.5"
+  );
+  tl.to(
+    "#post-it-2-brainstorm",
+    {
+      left: "4%",
+      top: "75%",
+      rotate: 5,
+      duration: 1.5,
+      ease: "power1.inOut",
+    },
+    "label-brainstorm-=1.5"
+  );
+  tl.to(
+    "#post-it-3-brainstorm",
+    {
+      left: "81%",
+      top: "70%",
+      rotate: -5,
+      duration: 1.5,
+      ease: "power1.inOut",
+    },
+    "label-brainstorm-=1.5"
+  );
+  tl.to(
+    "#post-it-4-brainstorm",
+    {
+      left: "25%",
+      top: "15%",
+      rotate: -10,
+      duration: 1.5,
+      ease: "power1.inOut",
+    },
+    "label-brainstorm-=1.5"
+  );
+  tl.to(
+    "#post-it-5-brainstorm",
+    {
+      left: "-1%",
+      top: "40%",
+      rotate: 8,
+      duration: 1.5,
+      ease: "power1.inOut",
+    },
+    "label-brainstorm-=1.5"
+  );
+  tl.to(
+    "#post-it-6-brainstorm",
+    {
+      left: "20%",
+      top: "50%",
+      rotate: -2,
+      duration: 1.5,
+      ease: "power1.inOut",
+    },
+    "label-brainstorm-=1.5"
+  );
+  tl.to(
+    "#post-it-7-brainstorm",
+    { left: "55%", top: "2%", rotate: -5, duration: 1.5, ease: "power1.inOut" },
+    "label-brainstorm-=1.5"
+  );
+  tl.to(
+    "#post-it-8-brainstorm",
+    {
+      left: "40%",
+      top: "60%",
+      rotate: 10,
+      duration: 1.5,
+      ease: "power1.inOut",
+    },
+    "label-brainstorm-=1.5"
+  );
+  tl.to(
+    "#post-it-9-brainstorm",
+    { left: "5%", top: "5%", rotate: -2, duration: 1.5, ease: "power1.inOut" },
+    "label-brainstorm-=1.5"
+  );
+  tl.to(
+    "#post-it-10-brainstorm",
+    {
+      left: "69%",
+      top: "36%",
+      rotate: 15,
+      duration: 1.5,
+      ease: "power1.inOut",
+    },
+    "label-brainstorm-=1.5"
+  );
+  tl.to(
+    "#post-it-11-brainstorm",
+    {
+      left: "60%",
+      top: "60%",
+      rotate: 2,
+      duration: 1.5,
+      ease: "power1.inOut",
+    },
+    "label-brainstorm-=1.5"
+  );
+
+  return tl;
 };

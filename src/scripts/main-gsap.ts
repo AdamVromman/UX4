@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Draggable } from "gsap/Draggable";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
-import { chapters, getChaptersWidth } from "./services";
+import { brainstormAnimation, chapters, getChaptersWidth } from "./services";
 
 const scroller = document.getElementById("scroller");
 
@@ -16,7 +16,7 @@ const DURATION = 100,
 const initTimeline = () => {
   gsap.registerPlugin(ScrollTrigger, Draggable, MotionPathPlugin);
 
-  const timeline = gsap.timeline({
+  let timeline = gsap.timeline({
     scrollTrigger: {
       trigger: "#main",
       pin: true,
@@ -86,6 +86,8 @@ const initTimeline = () => {
 
     count += width;
   });
+
+  timeline = brainstormAnimation(timeline);
 };
 
 window.addEventListener("load", initTimeline);

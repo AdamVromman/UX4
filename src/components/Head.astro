@@ -5,7 +5,7 @@ interface Props {
   name: string;
   role: string;
   color: "green" | "orange" | "grey" | "blue";
-  size: "big" | "small";
+  size: "130" | "90";
 }
 
 const { name, role, color, size } = Astro.props;
@@ -14,7 +14,7 @@ const { name, role, color, size } = Astro.props;
 <div
   class=`head bg-${color} min-w-${size} w-${size} h-${size} aspect-square rounded-full flex justify-center items-center relative m-20`
 >
-  <img src=`/UX4/head-${name.toLowerCase()}.png` />
+  <img src=`./head-${name.toLowerCase()}.png` />
 
   <svg
     class="w-full h-full absolute opacity-0"
