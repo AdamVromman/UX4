@@ -342,13 +342,13 @@ export const getChaptersWidth = () => {
 export const brainstormAnimation = (tl: gsap.core.Timeline) => {
   tl.to(
     "#post-it-0-brainstorm",
-    { left: "5%", top: "5%", rotate: -2, duration: 1.5, ease: "power1.inOut" },
-    "label-brainstorm-=1.5"
+    { left: "30%", top: "30%", rotate: -2, duration: 3.5, ease: "power1.out" },
+    "label-brainstorm-=3.5"
   );
   tl.to(
     "#post-it-1-brainstorm",
-    { left: "77%", top: "8%", rotate: 4, duration: 1.5, ease: "power1.inOut" },
-    "label-brainstorm-=1.5"
+    { left: "77%", top: "8%", rotate: 4, duration: 3.5, ease: "power1.out" },
+    "label-brainstorm-=3.5"
   );
   tl.to(
     "#post-it-2-brainstorm",
@@ -356,10 +356,10 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
       left: "4%",
       top: "75%",
       rotate: 5,
-      duration: 1.5,
-      ease: "power1.inOut",
+      duration: 3.5,
+      ease: "power1.out",
     },
-    "label-brainstorm-=1.5"
+    "label-brainstorm-=3.5"
   );
   tl.to(
     "#post-it-3-brainstorm",
@@ -367,21 +367,21 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
       left: "81%",
       top: "70%",
       rotate: -5,
-      duration: 1.5,
-      ease: "power1.inOut",
+      duration: 3.5,
+      ease: "power1.out",
     },
-    "label-brainstorm-=1.5"
+    "label-brainstorm-=3.5"
   );
   tl.to(
     "#post-it-4-brainstorm",
     {
       left: "25%",
-      top: "15%",
+      top: "7%",
       rotate: -10,
-      duration: 1.5,
-      ease: "power1.inOut",
+      duration: 3.5,
+      ease: "power1.out",
     },
-    "label-brainstorm-=1.5"
+    "label-brainstorm-=3.5"
   );
   tl.to(
     "#post-it-5-brainstorm",
@@ -389,10 +389,10 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
       left: "-1%",
       top: "40%",
       rotate: 8,
-      duration: 1.5,
-      ease: "power1.inOut",
+      duration: 3.5,
+      ease: "power1.out",
     },
-    "label-brainstorm-=1.5"
+    "label-brainstorm-=3.5"
   );
   tl.to(
     "#post-it-6-brainstorm",
@@ -400,15 +400,15 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
       left: "20%",
       top: "50%",
       rotate: -2,
-      duration: 1.5,
-      ease: "power1.inOut",
+      duration: 3.5,
+      ease: "power1.out",
     },
-    "label-brainstorm-=1.5"
+    "label-brainstorm-=3.5"
   );
   tl.to(
     "#post-it-7-brainstorm",
-    { left: "55%", top: "2%", rotate: -5, duration: 1.5, ease: "power1.inOut" },
-    "label-brainstorm-=1.5"
+    { left: "55%", top: "2%", rotate: -5, duration: 3.5, ease: "power1.out" },
+    "label-brainstorm-=3.5"
   );
   tl.to(
     "#post-it-8-brainstorm",
@@ -416,15 +416,15 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
       left: "40%",
       top: "60%",
       rotate: 10,
-      duration: 1.5,
-      ease: "power1.inOut",
+      duration: 3.5,
+      ease: "power1.out",
     },
-    "label-brainstorm-=1.5"
+    "label-brainstorm-=3.5"
   );
   tl.to(
     "#post-it-9-brainstorm",
-    { left: "5%", top: "5%", rotate: -2, duration: 1.5, ease: "power1.inOut" },
-    "label-brainstorm-=1.5"
+    { left: "5%", top: "5%", rotate: -2, duration: 3.5, ease: "power1.out" },
+    "label-brainstorm-=3.5"
   );
   tl.to(
     "#post-it-10-brainstorm",
@@ -432,10 +432,10 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
       left: "69%",
       top: "36%",
       rotate: 15,
-      duration: 1.5,
-      ease: "power1.inOut",
+      duration: 3.5,
+      ease: "power1.out",
     },
-    "label-brainstorm-=1.5"
+    "label-brainstorm-=3.5"
   );
   tl.to(
     "#post-it-11-brainstorm",
@@ -443,10 +443,28 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
       left: "60%",
       top: "60%",
       rotate: 2,
-      duration: 1.5,
-      ease: "power1.inOut",
+      duration: 3.5,
+      ease: "power1.out",
     },
+    "label-brainstorm-=3.5"
+  );
+
+  tl.from(
+    ".post-it-brainstorm",
+    { opacity: 0, duration: 0.5 },
     "label-brainstorm-=1.5"
+  );
+
+  tl.to(
+    ".post-it-brainstorm:not(.staying)",
+    { opacity: 0, duration: 2 },
+    "label-brainstorm-=0.2"
+  );
+
+  tl.to(
+    ".post-it-brainstorm.staying",
+    { x: 500, zIndex: 100, rotate: 0, duration: 2 },
+    "label-brainstorm-=0.2"
   );
 
   return tl;
