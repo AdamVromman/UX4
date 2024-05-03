@@ -16,7 +16,73 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body class="bg-white w-screen h-screen">
+  <body class="bg-white w-full overflow-x-hidden main:h-[30000px]">
     <slot />
+    <script src="../scripts/main-gsap.ts"></script>
+    <script src="../scripts/main-script.ts"></script>
   </body>
 </html>
+<style is:global>
+  @font-face {
+    font-family: "MD IO Thin";
+    src: url("/MD IO Trial/MDIOTrial-Thin.otf");
+  }
+  @font-face {
+    font-family: "MD IO Regular";
+    src: url("/MD IO Trial/MDIOTrial-Regular.otf");
+  }
+
+  @font-face {
+    font-family: "MD IO Semibold";
+    src: url("/MD IO Trial/MDIOTrial-Semibold.otf");
+  }
+
+  @font-face {
+    font-family: "MD IO Bold";
+    src: url("/MD IO Trial/MDIOTrial-Bold.otf");
+  }
+
+  @font-face {
+    font-family: "MD System Medium";
+    src: url("/MD System Trial/MDSystemTrial-Medium.otf");
+  }
+
+  @font-face {
+    font-family: "MD System Black";
+    src: url("/MD System Trial/MDSystemTrial-Black.otf");
+  }
+
+  h3 {
+    @apply font-io-regular text-[32px];
+  }
+
+  h4 {
+    @apply font-io-bold text-[25px];
+  }
+
+  h5 {
+    @apply font-system-black text-[18px];
+  }
+
+  p,
+  span {
+    @apply max-w-[600px] leading-relaxed;
+    @apply font-system-medium;
+
+    b {
+      @apply font-system-black;
+    }
+  }
+
+  p {
+    @apply pb-20;
+  }
+
+  .chapter {
+    @apply min-w-[1000px];
+  }
+
+  a {
+    @apply font-system-black text-orange;
+  }
+</style>

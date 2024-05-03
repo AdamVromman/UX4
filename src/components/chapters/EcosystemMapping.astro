@@ -1,0 +1,131 @@
+---
+import ChapterHead from "../ChapterHead.astro";
+---
+
+<div
+  id="ecosystem-mapping"
+  class="chapter h-full visible-page-width-disabled relative"
+>
+  <ChapterHead bottom={true} title="Ecosystem Mapping" height={50} />
+
+  <div class="flex flex-col absolute top-0 left-[400px] gap-20">
+    <div
+      class="flex flex-col gap-20 text-grey bg-white p-40 border-b-[30px] border-solid border-green w-[500px] min-h-[55vh]"
+    >
+      <span class="font-io-bold text-xl uppercase">Stakeholders</span>
+      <div class="flex flex-col gap-10">
+        <span class="font-io-regular text-lg">Primary</span>
+        <div class="flex flex-col gap-10">
+          <div class="flex flex-row items-center gap-20">
+            <div
+              class="border-2 w-40 h-40 min-w-40 min-h-40 rounded-full bg-blue"
+            >
+            </div>
+            <span
+              >Elderly people living alone in Kortrijk and Ghent who are over 65
+              years old, not very tech-savvy, and often feel lonely.</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col gap-10">
+        <span class="font-io-regular text-lg">Secondary</span>
+        <div class="flex flex-col gap-20">
+          <div class="flex flex-row items-center gap-20">
+            <div
+              class="w-40 h-40 min-w-40 min-h-40 rounded-full bg-orange flex justify-center items-center text-2xl"
+            >
+              1
+            </div>
+            <span
+              >Individuals who interact with the city flower bed devices,
+              younger and more tech-savvy, who can send voice memos to the
+              elderly through the city tulip.</span
+            >
+          </div>
+          <div class="flex flex-row items-center gap-20">
+            <div
+              class="w-40 h-40 min-w-40 min-h-40 rounded-full bg-orange flex justify-center items-center text-2xl"
+            >
+              2
+            </div>
+            <span
+              >Relatives or close acquaintances who use the mobile app to
+              communicate directly with the home tulip users.</span
+            >
+          </div>
+          <div class="flex flex-row items-center gap-20">
+            <div
+              class="w-40 h-40 min-w-40 min-h-40 rounded-full bg-orange flex justify-center items-center text-2xl"
+            >
+              3
+            </div>
+            <span
+              >Local Government and Community Organizers: Might be involved in
+              the placement and maintenance of the city flower beds.</span
+            >
+          </div>
+          <div class="flex flex-row gap-20">
+            <div class="flex flex-row items-center gap-10">
+              <div class="w-20 h-20 min-w-20 min-h-20 rounded-full bg-green">
+              </div>
+              <span>Touchpoints</span>
+            </div>
+            <div class="flex flex-row items-center gap-10">
+              <div class="w-20 h-20 min-w-20 min-h-20 rounded-full bg-grey">
+              </div>
+              <span>Interactions</span>
+            </div>
+            <div class="flex flex-row items-center gap-10">
+              <div class="w-20 h-20 min-w-20 min-h-20 rounded-full bg-pink">
+              </div>
+              <span>Barriers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-blue">
+      <span class="font-io-bold text-xl uppercase mb-20 block">Channels</span>
+      <div class="flex flex-col gap-10">
+        <span
+          >Physical Locations: City flower beds located in public areas in
+          Kortrijk and Ghent.</span
+        >
+        <span>Digital Platforms: The mobile app for smartphones</span>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="absolute -right-80 top-1/2 translate-y-[-120%] text-orange w-[450px]"
+  >
+    <span class="font-io-bold text-xl uppercase mb-20 block"
+      >Outcomes/Goals</span
+    >
+    <div class="flex flex-col gap-10">
+      <span
+        >Reduced loneliness: With more communication we aim to reduce feelings
+        of isolation among the elderly.</span
+      >
+      <span
+        >Increased community -feeling: We encourage interaction between
+        different age groups.</span
+      >
+      <span>
+        Better monitoring and support: With the app family members can support
+        the elderly user’s well-being.
+      </span>
+    </div>
+  </div>
+
+  <img
+    class="parallax-plane-1-ecosystem-mapping absolute left-[920px] w-[750px] top-1/2 translate-y-[-50%]"
+    src="./ecosystem-mapping.svg"
+  />
+</div>
+<style>
+  #ecosystem-mapping {
+    @apply min-w-[1960px];
+  }
+</style>

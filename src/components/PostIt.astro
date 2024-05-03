@@ -1,0 +1,28 @@
+---
+interface Props {
+  name: "adam" | "ele" | "ella" | "marats";
+  color: "green" | "orange" | "grey" | "blue" | "white";
+  id: number;
+  stay: boolean;
+  chapter: string;
+  text: string;
+}
+
+const { name, color, stay, chapter, id, text } = Astro.props;
+---
+
+<div
+  id=`post-it-${id}-${chapter}`
+  class=`post-it-${chapter} ${stay ? "staying" : ""} absolute bg-${color} w-250 h-250 max-w-250 max-h-250 rounded-br-[150px] p-20 pb-40 pr-40`
+>
+  <p
+    class=`${color === "grey" || color === "blue" ? "text-white" : ""} overflow-hidden max-h-full max-w-full`
+  >
+    {text}
+  </p>
+  <div
+    class=`absolute bottom-0 right-0 w-90 h-90 rounded-full p-10 flex justify-center items-center bg-${color === "grey" ? "green" : "orange"}`
+  >
+    <img src=`./head-${name.toLowerCase()}.png` />
+  </div>
+</div>

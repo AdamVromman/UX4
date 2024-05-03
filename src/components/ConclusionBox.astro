@@ -1,0 +1,30 @@
+---
+interface Props {
+  black: boolean;
+  chapter: string;
+  id: number;
+}
+
+const { id, chapter, black } = Astro.props;
+---
+
+<div
+  id=`conclusion-box-${id}-${chapter}`
+  class=`relative min-w-[800px] w-fit bg-${black? "grey": "white"} text-${black? "white": "grey"} flex flex-col p-20 gap-10 rounded-tr-[50px]`
+>
+  <span class="font-io-bold text-pink text-xl">Conclusion Box</span>
+  <div class="relative z-20 max-w-[500px]">
+    <slot />
+  </div>
+  <svg
+    class="absolute top-0 right-0 h-full rounded-tr-[50px]"
+    viewBox="0 0 500 387"
+  >
+    <path
+      d="M69,308.84h0c0-13.15,3.26-25.54,9-36.41L0,387h147.16c-43.16,0-78.16-34.99-78.16-78.16Z"
+      style="fill: #fa676f; stroke-width: 0px;"></path>
+    <path
+      d="M263.48,0L87.83,257.99c14.33-16.71,35.58-27.3,59.32-27.3h0c14.71,0,28.47,4.06,40.22,11.13v134.05c-11.75,7.07-25.51,11.13-40.22,11.13h196.53v-78.47c0,43.16-34.99,78.16-78.16,78.16s-78.16-34.99-78.16-78.16,34.99-78.16,78.16-78.16,78.16,34.99,78.16,78.16v-77.84h156.31V0h-236.52Z"
+      style="fill: #fa676f; stroke-width: 0px;"></path>
+  </svg>
+</div>

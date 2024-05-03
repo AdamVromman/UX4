@@ -1,0 +1,32 @@
+---
+interface Props {
+  title: string;
+  bottom: boolean;
+  height: number;
+}
+
+const { title, bottom, height } = Astro.props;
+---
+
+<div
+  class=`absolute chapter-head ${bottom ? "bottom" : "top"} text-${bottom ? "grey":"white"} flex flex-col${bottom ? "-reverse" : ""} max-w-[600px] gap-10`
+>
+  <div>
+    <h3 class="mb-20">{title}</h3>
+    <slot />
+  </div>
+  <div
+    style=`height: ${height}px`
+    class=`w-[3px] bg-${bottom ? "grey":"white"}`
+  >
+  </div>
+</div>
+<style>
+  .top {
+    bottom: calc(50% + 15px);
+  }
+
+  .bottom {
+    top: calc(50% + 15px);
+  }
+</style>

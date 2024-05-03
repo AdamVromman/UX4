@@ -1,13 +1,142 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import TitleCard from "../components/TitleCard.astro";
+import Intro from "../components/Intro.astro";
+import Start from "../components/chapters/Start.astro";
+import InitialBrainstorm from "../components/chapters/InitialBrainstorm.astro";
+import TargetAudience from "../components/chapters/TargetAudience.astro";
+import EcosystemMapping from "../components/chapters/EcosystemMapping.astro";
+import TargetAudienceInterview from "../components/chapters/TargetAudienceInterview.astro";
+import DesignPrinciples from "../components/chapters/DesignPrinciples.astro";
+import CompetitorAnalysis from "../components/chapters/CompetitorAnalysis.astro";
+import Alphabet from "../components/chapters/Alphabet.astro";
+import FlippedAssumptions from "../components/chapters/FlippedAssumptions.astro";
+import Biases from "../components/chapters/Biases.astro";
+import Crazy8 from "../components/chapters/Crazy8.astro";
+import RandomWords from "../components/chapters/RandomWords.astro";
+import ConvergingVoting from "../components/chapters/ConvergingVoting.astro";
+import ConvergingPersonas from "../components/chapters/ConvergingPersonas.astro";
+import ConvergingFeatureMatrix from "../components/chapters/ConvergingFeatureMatrix.astro";
+import Goals from "../components/chapters/Goals.astro";
+import WrittenGuidelines from "../components/chapters/WrittenGuidelines.astro";
+import UserScenarios from "../components/chapters/UserScenarios.astro";
+import PrototypeTechnicalLogic from "../components/chapters/PrototypeTechnicalLogic.astro";
+import Test1 from "../components/chapters/Test1.astro";
+import Test2 from "../components/chapters/Test2.astro";
+import Test3 from "../components/chapters/Test3.astro";
+import Conclusions from "../components/chapters/Conclusions.astro";
+import Storyboards from "../components/chapters/Storyboards.astro";
+import ProjectPoster from "../components/chapters/ProjectPoster.astro";
+import UserStories from "../components/chapters/UserStories.astro";
+import UserJourneys from "../components/chapters/UserJourneys.astro";
+import Heads from "../components/chapters/Heads.astro";
+import PrototypeLights from "../components/chapters/PrototypeLights.astro";
+import PrototypePaper from "../components/chapters/PrototypePaper.astro";
+import PrototypeSound from "../components/chapters/PrototypeSound.astro";
+import WireflowsIpad from "../components/chapters/WireflowsIpad.astro";
+import WireflowsApp from "../components/chapters/WireflowsApp.astro";
+import PrototypeIpadPaper from "../components/chapters/PrototypeIpadPaper.astro";
+import PrototypeAppPaper from "../components/chapters/PrototypeAppPaper.astro";
+import PrototypeIpadFigma from "../components/chapters/PrototypeIpadFigma.astro";
+import PrototypeAppFigma from "../components/chapters/PrototypeAppFigma.astro";
 ---
 
 <Layout title="Welcome to Astro.">
   <main
-    class="hidden main:block w-full h-full overflow-y-hidden overflow-x-auto bg-blue"
+    id="main"
+    class="hidden main:flex flex-row items-center w-full h-screen overflow-y-hidden overflow-x-clip relative"
   >
+    <div class="left-0 top-0 w-full h-full flex flex-col absolute z-0">
+      <div class="bg-blue w-full grow"></div>
+      <div class="bg-green h-[30px] w-full"></div>
+      <div class="bg-white w-full grow"></div>
+    </div>
+    <div class="min-w-full h-full"></div>
+    <div
+      id="scroller"
+      class="h-full max-h-[1080px] relative z-10 flex flex-row pr-[25vh]"
+    >
+      <TitleCard />
+      <Intro />
+      <Start />
+      <ProjectPoster />
+      <InitialBrainstorm />
+      <TargetAudience />
+      <EcosystemMapping />
+      <TargetAudienceInterview />
+      <DesignPrinciples />
+      <CompetitorAnalysis />
+      <Alphabet />
+      <FlippedAssumptions />
+      <Biases />
+      <Crazy8 />
+      <RandomWords />
+      <ConvergingVoting />
+      <Goals />
+      <ConvergingPersonas />
+      <UserScenarios />
+      <ConvergingFeatureMatrix />
+      <Heads />
+      <WrittenGuidelines />
+      <Storyboards />
+      <UserStories />
+      <UserJourneys />
+      <PrototypeTechnicalLogic />
+      <PrototypePaper />
+      <PrototypeLights />
+      <PrototypeSound />
+      <WireflowsIpad />
+      <PrototypeIpadPaper />
+      <PrototypeIpadFigma />
+      <WireflowsApp />
+      <PrototypeAppPaper />
+      <PrototypeAppFigma />
+      <Test1 />
+      <Test2 />
+      <Test3 />
+      <Conclusions />
+    </div>
+    <div class="h-full fixed right-0 top-0 translate-x-[50%] z-50">
+      <svg
+        class="h-full"
+        id="arrow"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 500 1000"
+      >
+        <rect
+          y="250"
+          width="250"
+          height="500"
+          style="fill: #d6fa00; stroke-width: 0px;"></rect>
+        <g transform-origin="50% 25%" id="circle-top">
+          <circle
+            cx="250"
+            cy="250"
+            r="250"
+            style="fill: #343437; stroke-width: 0px;"></circle>
+          <circle
+            cx="250"
+            cy="400"
+            r="50"
+            style="fill: #f57939; stroke-width: 0px;"></circle>
+        </g>
+        <g transform-origin="50% 25%" id="circle-bottom">
+          <circle
+            cx="250"
+            cy="750"
+            r="250"
+            style="fill: #122d8b; stroke-width: 0px;"></circle>
+          <rect
+            x="240"
+            y="525"
+            width="20"
+            height="200"
+            style="fill: #d6fa00; stroke-width: 0px;"></rect>
+        </g>
+      </svg>
+    </div>
   </main>
-  <div class="w-full h-full flex main:hidden justify-center items-center">
+  <div class="w-full h-screen flex main:hidden justify-center items-center">
     <span class="text-blue"
       >Your screen needs to be 1000px wide and 500px high.</span
     >
