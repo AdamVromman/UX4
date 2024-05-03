@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 515.5 599.16">
+  <g id="Layer_5" data-name="Layer 5">
+    <g>
+      <g>
+        <line x1="1" y1="4.06" x2="378.94" y2="4.06" style="fill: none; stroke: #f57939; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
+        <polygon points="386 4.06 376.05 8.13 378.41 4.06 376.05 0 386 4.06" style="fill: #f57939; stroke-width: 0px;"/>
+      </g>
+      <g>
+        <polyline points="331 28.06 459.34 28.06 459.34 405.06 508.44 405.06" style="fill: none; stroke: #f57939; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
+        <polygon points="515.5 405.06 505.55 409.13 507.91 405.06 505.55 401 515.5 405.06" style="fill: #f57939; stroke-width: 0px;"/>
+      </g>
+      <g>
+        <polyline points="149 99.06 369.57 99.06 369.57 165.06 419.94 165.06" style="fill: none; stroke: #f57939; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
+        <polygon points="427 165.06 417.05 169.13 419.41 165.06 417.05 161 427 165.06" style="fill: #f57939; stroke-width: 0px;"/>
+      </g>
+      <g>
+        <polyline points="202 244.06 237.8 244.06 237.8 273.69 503.94 273.69" style="fill: none; stroke: #f57939; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
+        <polygon points="511 273.69 501.05 277.76 503.41 273.69 501.05 269.63 511 273.69" style="fill: #f57939; stroke-width: 0px;"/>
+      </g>
+      <g>
+        <polyline points="347 198.06 358.23 198.06 358.23 595.09 379.44 595.09" style="fill: none; stroke: #f57939; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/>
+        <polygon points="386.5 595.09 376.55 599.16 378.91 595.09 376.55 591.03 386.5 595.09" style="fill: #f57939; stroke-width: 0px;"/>
+      </g>
+    </g>
+  </g>
+</svg>

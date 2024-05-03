@@ -44,7 +44,7 @@ import PrototypeAppFigma from "../components/chapters/PrototypeAppFigma.astro";
 <Layout title="Welcome to Astro.">
   <main
     id="main"
-    class="hidden main:flex flex-row w-full h-screen overflow-y-hidden overflow-x-clip relative"
+    class="hidden main:flex flex-row items-center w-full h-screen overflow-y-hidden overflow-x-clip relative"
   >
     <div class="left-0 top-0 w-full h-full flex flex-col absolute z-0">
       <div class="bg-blue w-full grow"></div>
@@ -52,7 +52,10 @@ import PrototypeAppFigma from "../components/chapters/PrototypeAppFigma.astro";
       <div class="bg-white w-full grow"></div>
     </div>
     <div class="min-w-full h-full"></div>
-    <div id="scroller" class="h-full relative z-10 flex flex-row pr-[25vh]">
+    <div
+      id="scroller"
+      class="h-full max-h-[1080px] relative z-10 flex flex-row pr-[25vh]"
+    >
       <TitleCard />
       <Intro />
       <Start />

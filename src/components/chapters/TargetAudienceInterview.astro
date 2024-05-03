@@ -1,9 +1,96 @@
 ---
-
+import ChapterHead from "../ChapterHead.astro";
 ---
 
 <div
   id="target-audience-interview"
   class="chapter h-full visible-page-width-disabled relative"
 >
+  <div>
+    <ChapterHead title="Target Audience Interview." bottom={true} height={100}
+      ><p>
+        To try and get to know our target audience, we decided to conduct some
+        semi-structured interviews. We met up with two elderly people that lived
+        alone, asked them the following questions, received the following
+        answers and formed the following conclusions.
+      </p><span
+        >(The most interesting answers were chosen, <br />the full list of
+        answers can be found <a
+          href="https://studenthowest-my.sharepoint.com/:x:/g/personal/adam_vromman_student_howest_be/ETZ8vg-2IGdFrumtXII0RewB1DMwP2XqAd3WG4GrBYfpOQ?e=LgaRhv"
+          >here</a
+        >.)</span
+      ></ChapterHead
+    >
+  </div>
+
+  <ul
+    class="list-decimal text-white absolute left-[300px] w-[600px] bg-blue p-20 pl-40 flex flex-col justify-end parallax-plane-1-target-audience-interview"
+  >
+    <li>How old are you?</li>
+    <li>Where are you from?</li>
+    <li>Do you live alone (most of the time)?</li>
+    <li>
+      How do you stay in touch with the most important people in your life that
+      do not live with you?
+    </li>
+    <li>Do you have a fast way to contact them in case of an emergency?</li>
+    <li>How do you stay in touch with your medical professionals?</li>
+    <li>
+      Have you ever been in an emergency at home and you had trouble contacting
+      family/medical professionals?
+    </li>
+    <li>Do you use any smart devices to monitor your health?</li>
+    <li>Do these devices satisfy you?</li>
+    <li>Does anyone you know use a smart device to monitor their health?</li>
+    <li>
+      Would you trust a smart device that monitors your health and alerts
+      family/medical professionals automatically in case of an emergency?
+    </li>
+    <li>How connected do you feel to your neighbours?</li>
+    <li>How connected do you feel to your neighbourhood?</li>
+    <li>How connected do you feel to your city?</li>
+  </ul>
+  <img
+    class="parallax-plane-1-target-audience-interview absolute left-[495px] top-[123.5px] h-[600px]"
+    src="/arrows.svg"
+  />
+  <p
+    class="parallax-plane-1-target-audience-interview italic text-orange absolute left-[878px] top-[117px] ml-20 bg-blue w-[500px]"
+  >
+    The family of Jean-Pierre visits twice a week on Tuesday and Thursday. The
+    do some cleaning and bring some groceries. Cleaning personnel also comes
+    every 14 days.
+  </p>
+  <p
+    class="parallax-plane-1-target-audience-interview italic text-orange absolute left-[920px] top-[277px] ml-20 bg-blue"
+  >
+    Jean-Pierre has been stuck in the elevator of his building 4 times already.
+    Each time the lights also go out. He feels frustrated about the elevator
+    getting stuck so often.
+  </p>
+  <p
+    class="parallax-plane-1-target-audience-interview italic text-orange absolute left-[1005px] top-[384px] ml-20 w-[500px]"
+  >
+    Roeland feels very connected to the neighbours to the right, but not at all
+    to the neighbours on the left, he doesn’t like them much.
+  </p>
+  <p
+    class="parallax-plane-1-target-audience-interview italic text-orange absolute left-[1007px] top-[515px] ml-20 w-[500px]"
+  >
+    Roeland tells us he has a phone in the hallway and wonders what would happen
+    if he couldn’t reach it because of the emergency.
+  </p>
+  <p
+    class="parallax-plane-1-target-audience-interview italic text-orange absolute left-[879px] top-[705px] ml-20"
+  >
+    Jean-Pierre tells us that he doesn’t want camera’s following him around all
+    day. He then explained that if it’s it just numbers being recorded, like his
+    BPM, blood levels, etc. he would feel different about it. Then he might go
+    along with it.
+  </p>
 </div>
+<style>
+  #target-audience-interview {
+    @apply min-w-[1600px];
+  }
+</style>
