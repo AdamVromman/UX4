@@ -36,16 +36,8 @@ import ConclusionBox from "../ConclusionBox.astro";
     </p>
     <p>This is what we came up with:</p>
   </div>
-  <div class="right-0 top-3/4 -translate-y-[50%] absolute">
-    <ConclusionBox chapter="target-audience" id={0} black={true}>
-      <span
-        >Target Audience: Elderly people living alone in the city of Kortrijk,
-        unable to visit the city centre frenquently.
-      </span>
-    </ConclusionBox>
-  </div>
   <div
-    class="p-40 rounded-[50px] absolute flex flex-col gap-20 bg-orange text-grey right-0 top-1/2 -translate-y-[50%] w-[500px]"
+    class="parallax-plane-1-target-audience p-40 rounded-[50px] absolute flex flex-col gap-20 bg-orange text-grey right-[700px] top-1/2 -translate-y-[50%] w-[500px]"
   >
     <p>
       At first we were thinking about every person that for whatever reason
@@ -75,9 +67,18 @@ import ConclusionBox from "../ConclusionBox.astro";
     </p>
     <p>And so our target audience was defined.</p>
   </div>
+  <div class="right-[700px] top-3/4 -translate-y-[50%] absolute">
+    <ConclusionBox chapter="target-audience" id={0} black={true}>
+      <span
+        >Target Audience: Elderly people living alone in the city of Kortrijk,
+        unable to visit the city centre frenquently.
+      </span>
+    </ConclusionBox>
+  </div>
 </div>
+
 <style>
   #target-audience {
-    @apply min-w-[2000px];
+    @apply min-w-[2700px];
   }
 </style>
