@@ -517,3 +517,25 @@ export const designPrinciplesAnimation = (tl: gsap.core.Timeline) => {
 
   return tl;
 };
+
+export const alphabetAnimation = (tl: gsap.core.Timeline) => {
+  tl.to(
+    ".alphabet-letter",
+    { x: 400, opacity: 1, duration: 0.2, stagger: 0.2 },
+    "label-alphabet-=0.4"
+  );
+
+  tl.to(
+    ".alphabet-letter",
+    { opacity: 0, duration: 0.2, stagger: 0.2, delay: 0.2 },
+    "label-alphabet-=0.4"
+  );
+
+  tl.to(
+    ".alphabet-all-letters",
+    { x: 1800, duration: 5.5 },
+    "label-alphabet+=1"
+  );
+
+  return tl;
+};

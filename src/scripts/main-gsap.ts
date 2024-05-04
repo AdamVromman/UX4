@@ -4,6 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Draggable } from "gsap/Draggable";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import {
+  alphabetAnimation,
   brainstormAnimation,
   chapters,
   designPrinciplesAnimation,
@@ -96,6 +97,7 @@ const initTimeline = () => {
   timeline = brainstormAnimation(timeline);
   timeline = targetAudienceAnimation(timeline);
   timeline = designPrinciplesAnimation(timeline);
+  timeline = alphabetAnimation(timeline);
 };
 
 window.addEventListener("load", initTimeline);
