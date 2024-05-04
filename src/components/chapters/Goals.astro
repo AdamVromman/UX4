@@ -1,6 +1,84 @@
 ---
-
+import ChapterHead from "../ChapterHead.astro";
 ---
 
-<div id="goals" class="chapter h-full visible-page-width-disabled relative">
+<div
+  id="goals"
+  class="chapter h-full visible-page-width-disabled relative ml-[200px]"
+>
+  <ChapterHead title="Goals." bottom={false} height={150} />
+  <div class="text-white relative left-[200px] top-20">
+    <p>
+      <span class="goals-what"
+        >There is a home tulip and a city flower bed, every home tulip is
+        connected to a tulip on the city flower bed.</span
+      >
+      <span class="goals-how"
+        >The user at home can press the button on their home tulip smart-device,
+        a connection to the corresponding city flower will be made. The led
+        light of the home tulip will blink until the connection is made. When
+        both tulips are connected, both led lights inside these tulips will be
+        on. Now a stranger can see that there is someone who would like a
+        voice-memo. They can use the iPad to send a voice-memo to the person in
+        need.</span
+      >
+    </p>
+    <p>
+      <span class="goals-why"
+        >In this way people at home can feel more connected to the city they
+        live in and will feel less lonely.</span
+      >
+    </p>
+    <p>
+      <span class="goals-what">There is also a mobile app</span>
+      <span class="goals-how">
+        relatives (or other people whom the person trusts) can connect with the
+        home tulip.</span
+      >
+    </p>
+  </div>
+  <div
+    class="circle-what absolute top-[250px] left-[700px] w-[600px] h-[600px] bg-grey flex justify-center items-center rounded-full parallax-plane-1-goals"
+  >
+    <span
+      class="absolute left-1/2 -translate-x-[50%] top-[50px] -translate-y-[50%] uppercase text-white text-4xl font-io-regular"
+      >What</span
+    >
+    <div
+      class="circle-how relative w-[400px] h-[400px] bg-orange flex justify-center items-center rounded-full"
+    >
+      <span
+        class="absolute left-1/2 -translate-x-[50%] top-[50px] -translate-y-[50%] uppercase text-black text-4xl font-io-regular"
+        >How</span
+      >
+      <div
+        class="circle-why relative w-[200px] h-[200px] bg-green flex justify-center items-center rounded-full"
+      >
+        <span class="uppercase text-black text-4xl font-io-regular">Why</span>
+      </div>
+    </div>
+  </div>
 </div>
+<style>
+  #goals {
+    @apply min-w-[1500px];
+  }
+
+  #goals:has(.circle-what:hover):has(.circle-how:not(:hover)) {
+    & .goals-what {
+      @apply bg-grey;
+    }
+  }
+
+  #goals:has(.circle-how:hover):has(.circle-why:not(:hover)) {
+    & .goals-how {
+      @apply bg-orange;
+    }
+  }
+
+  #goals:has(.circle-why:hover) {
+    & .goals-why {
+      @apply bg-green text-black;
+    }
+  }
+</style>
