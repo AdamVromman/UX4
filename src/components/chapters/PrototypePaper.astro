@@ -1,9 +1,25 @@
 ---
-
+import ChapterHead from "../ChapterHead.astro";
 ---
 
 <div
   id="prototype-paper"
   class="chapter h-full visible-page-width-disabled relative"
 >
+  <ChapterHead title="Prototype: Paper" bottom={true} height={100}
+    ><span
+      >As a first prototype, we created a paper version. This was mostly done to
+      test for ourselves how we were going to build the flowers out of more
+      durable materials. To get the size and shape right.</span
+    ></ChapterHead
+  >
+  <img
+    class="relative left-[700px] top-1/2 -translate-y-[50%]"
+    src="prototype-paper.png"
+  />
 </div>
+<style>
+  #prototype-paper {
+    @apply min-w-[1400px];
+  }
+</style>
