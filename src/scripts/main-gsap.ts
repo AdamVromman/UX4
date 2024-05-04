@@ -16,10 +16,6 @@ import {
   votingAnimations,
 } from "./services";
 
-const scroller = document.getElementById("scroller");
-
-console.log(scroller?.getBoundingClientRect().width);
-
 const DURATION = 100,
   EASE = "none",
   START = 0;
@@ -34,14 +30,6 @@ const initTimeline = () => {
       start: "top top",
       scrub: 1,
       end: 30000,
-      // snap: {
-      //   snapTo: "labels",
-      //   duration: 0.1,
-      //   ease: "power2.out",
-      //   onComplete: () => {
-      //     console.log(scroller?.style.transform);
-      //   },
-      // },
     },
   });
 
@@ -75,10 +63,10 @@ const initTimeline = () => {
 
     if (chapter) {
       const chapterWidth = chapter.getBoundingClientRect().width;
+
+      console.log(x + ": " + chapterWidth);
       width = (chapterWidth / getChaptersWidth()) * 100;
     }
-
-    console.log(x + ": " + width);
 
     timeline.addLabel(`label-${x}`, count);
 
