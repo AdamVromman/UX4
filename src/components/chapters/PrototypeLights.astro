@@ -1,9 +1,26 @@
 ---
-
+import ChapterHead from "../ChapterHead.astro";
 ---
 
 <div
   id="prototype-lights"
   class="chapter h-full visible-page-width-disabled relative"
 >
+  <ChapterHead title="Prototype: Lights" bottom={true} height={100}
+    ><span
+      >The next prototype was a lot more advanced. We wanted to test the feeling
+      of a smart device. This was important to use since our target audience is
+      not always as tech savvy as us. Therefor, it is important to test what
+      happens when we add pieces of technology.</span
+    ></ChapterHead
+  >
+  <img
+    class="parallax-plane-1-prototype-lights relative left-[700px] top-1/2 -translate-y-[50%]"
+    src="prototype-lights.png"
+  />
 </div>
+<style>
+  #prototype-lights {
+    @apply min-w-[1400px];
+  }
+</style>
