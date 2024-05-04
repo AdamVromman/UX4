@@ -13,6 +13,7 @@ import {
   getChaptersWidth,
   randomWordsAnimation,
   targetAudienceAnimation,
+  votingAnimations,
 } from "./services";
 
 const scroller = document.getElementById("scroller");
@@ -77,6 +78,8 @@ const initTimeline = () => {
       width = (chapterWidth / getChaptersWidth()) * 100;
     }
 
+    console.log(x + ": " + width);
+
     timeline.addLabel(`label-${x}`, count);
 
     if (index === 0) {
@@ -104,6 +107,7 @@ const initTimeline = () => {
   timeline = flippedAssumptionsAnimation(timeline);
   timeline = biasesAnimation(timeline);
   timeline = randomWordsAnimation(timeline);
+  timeline = votingAnimations(timeline);
 };
 
 window.addEventListener("load", initTimeline);

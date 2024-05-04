@@ -17,7 +17,7 @@ export const chapters = [
   "converging-voting",
   "goals",
   "converging-personas",
-  "convering-feature-matrix",
+  "converging-feature-matrix",
   "user-scenarios",
   "heads",
   "written-guidelines",
@@ -734,6 +734,31 @@ export const randomWordsAnimation = (tl: gsap.core.Timeline) => {
       duration: 2,
     },
     "label-random-words-=1.6"
+  );
+
+  return tl;
+};
+
+export const votingAnimations = (tl: gsap.core.Timeline) => {
+  tl.to(
+    ".no-votes",
+    {
+      textDecorationLine: "line-through",
+      duration: 0.5,
+      stagger: 0.7,
+    },
+    "label-converging-voting-=1.5"
+  );
+
+  tl.from(
+    ".sticker",
+    {
+      y: -500,
+      opacity: 0,
+      duration: 0.5,
+      stagger: 0.7,
+    },
+    "label-converging-voting-=1.7"
   );
 
   return tl;
