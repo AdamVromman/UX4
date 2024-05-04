@@ -6,6 +6,7 @@ import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import {
   brainstormAnimation,
   chapters,
+  designPrinciplesAnimation,
   getChaptersWidth,
   targetAudienceAnimation,
 } from "./services";
@@ -94,6 +95,7 @@ const initTimeline = () => {
 
   timeline = brainstormAnimation(timeline);
   timeline = targetAudienceAnimation(timeline);
+  timeline = designPrinciplesAnimation(timeline);
 };
 
 window.addEventListener("load", initTimeline);

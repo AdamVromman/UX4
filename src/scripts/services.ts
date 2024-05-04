@@ -480,3 +480,40 @@ export const targetAudienceAnimation = (tl: gsap.core.Timeline) => {
 
   return tl;
 };
+
+export const designPrinciplesAnimation = (tl: gsap.core.Timeline) => {
+  tl.fromTo(
+    "#post-it-0-design-principles",
+    { x: 500, y: -50, rotate: 50 },
+    { x: 0, y: 0, rotate: -10, duration: 2, ease: "power2.out" },
+    "label-design-principles-=1.5"
+  );
+
+  tl.fromTo(
+    "#post-it-1-design-principles",
+    { x: 700, rotate: -120 },
+    { x: 0, y: 0, rotate: 5, duration: 2, ease: "power2.out" },
+    "label-design-principles-=1.5"
+  );
+
+  tl.fromTo(
+    "#post-it-2-design-principles",
+    { x: 500, y: 500, rotate: 50 },
+    { x: 0, y: 0, rotate: -5, duration: 2, ease: "power2.out" },
+    "label-design-principles-=1.5"
+  );
+
+  tl.from(
+    ".design-principles-arrow",
+    { x: -300, opacity: 0, duration: 1, ease: "power2.out" },
+    "label-design-principles"
+  );
+
+  tl.from(
+    ".design-principles-card",
+    { x: 400, opacity: 0, duration: 1, ease: "power2.out" },
+    "label-design-principles"
+  );
+
+  return tl;
+};

@@ -1,9 +1,123 @@
 ---
-
+import ChapterHead from "../ChapterHead.astro";
+import PostIt from "../PostIt.astro";
 ---
 
 <div
   id="design-principles"
   class="chapter h-full visible-page-width-disabled relative"
 >
+  <ChapterHead title="Design Principles" bottom={false} height={60}
+    ><p>
+      At this point we knew that we were going to work with —mostly— elderly
+      people that lived alone and might experience loneliness. We wanted to
+      treat them with respect and make sure that our product would be useable by
+      its intended audience. That is where our design principles came in.
+    </p></ChapterHead
+  >
+  <div
+    class="relative flex flex-col justify-center top-1/2 translate-y-[-50%] h-full left-[800px]"
+  >
+    <div class="flex flex-row items-center gap-40">
+      <PostIt
+        text="People’s lives depend on this system so it should be very simple and work in extra urgent scenarios"
+        color="green"
+        chapter="design-principles"
+        name="adam"
+        id={0}
+        stay={false}
+        relative={true}
+      />
+      <svg class="design-principles-arrow w-[300px]" viewBox="0 0 386 8.13">
+        <line
+          x1="1"
+          y1="4.06"
+          x2="378.94"
+          y2="4.06"
+          class="stroke-green"
+          style=" stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"
+        ></line>
+        <polygon
+          points="386 4.06 376.05 8.13 378.41 4.06 376.05 0 386 4.06"
+          class="fill-green"></polygon>
+      </svg>
+      <div class="design-principles-card flex flex-col gap-10">
+        <h3 class="text-white">Welcoming Design.</h3>
+        <span class="py-10 px-20 bg-green text-blue max-w-[400px]"
+          >Crafted for ease and familiarity, with user-friendly and recognisable
+          form, ensuring comfort and accessibility for those not accustomed to
+          technology.</span
+        >
+      </div>
+    </div>
+    <div class="flex flex-row items-center gap-40">
+      <PostIt
+        text="In terms of we should consider connection to neighbours or government or family as an important part"
+        color="grey"
+        chapter="design-principles"
+        name="marats"
+        id={1}
+        stay={false}
+        relative={true}
+      />
+      <svg class="design-principles-arrow w-[300px]" viewBox="0 0 386 8.13">
+        <line
+          x1="1"
+          y1="4.06"
+          x2="378.94"
+          y2="4.06"
+          class="stroke-grey"
+          style=" stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"
+        ></line>
+        <polygon
+          points="386 4.06 376.05 8.13 378.41 4.06 376.05 0 386 4.06"
+          class="fill-grey"></polygon>
+      </svg>
+      <div class="design-principles-card flex flex-col gap-10">
+        <h3 class="text-white">Fail- & Foolproof.</h3>
+        <span class="py-10 px-20 bg-grey text-white max-w-[400px]"
+          >Engineered for straightforward interaction, the device should provide
+          a dependable yet uncomplicated communication channel, avoiding the
+          burden of critical or complex operations and emergency situations.</span
+        >
+      </div>
+    </div>
+    <div class="flex flex-row items-center gap-40">
+      <PostIt
+        text="Like since we are trying to make the neighbourhood safer, the app should definitely make the people safer and feel safer."
+        color="blue"
+        chapter="design-principles"
+        name="ele"
+        id={2}
+        stay={false}
+        relative={true}
+      />
+      <svg class="design-principles-arrow w-[300px]" viewBox="0 0 386 8.13">
+        <line
+          x1="1"
+          y1="4.06"
+          x2="378.94"
+          y2="4.06"
+          class="stroke-blue"
+          style=" stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"
+        ></line>
+        <polygon
+          points="386 4.06 376.05 8.13 378.41 4.06 376.05 0 386 4.06"
+          class="fill-blue"></polygon>
+      </svg>
+      <div class="design-principles-card flex flex-col gap-10">
+        <h3 class="text-blue">Connecting.</h3>
+        <span class="py-10 px-20 bg-blue text-white max-w-[400px]"
+          >Designed to bridge the gap between individuals and the urban
+          environment, our smart device should foster connections and enhance
+          social interaction in an increasingly isolated urban world.</span
+        >
+      </div>
+    </div>
+  </div>
 </div>
+<style>
+  #design-principles {
+    @apply min-w-[1700px];
+  }
+</style>
