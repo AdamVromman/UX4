@@ -11,6 +11,7 @@ import {
   designPrinciplesAnimation,
   flippedAssumptionsAnimation,
   getChaptersWidth,
+  randomWordsAnimation,
   targetAudienceAnimation,
 } from "./services";
 
@@ -102,6 +103,7 @@ const initTimeline = () => {
   timeline = alphabetAnimation(timeline);
   timeline = flippedAssumptionsAnimation(timeline);
   timeline = biasesAnimation(timeline);
+  timeline = randomWordsAnimation(timeline);
 };
 
 window.addEventListener("load", initTimeline);

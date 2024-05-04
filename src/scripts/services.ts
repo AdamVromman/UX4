@@ -622,3 +622,119 @@ export const biasesAnimation = (tl: gsap.core.Timeline) => {
 
   return tl;
 };
+
+export const randomWordsAnimation = (tl: gsap.core.Timeline) => {
+  tl.fromTo(
+    "#post-it-0-random-words",
+    {
+      top: -300,
+      rotate: -70,
+    },
+    {
+      top: 100,
+      rotate: -10,
+      duration: 2,
+    },
+    "label-random-words-=2"
+  );
+
+  tl.fromTo(
+    "#post-it-1-random-words",
+    {
+      top: -400,
+      rotate: 50,
+    },
+    {
+      top: 600,
+      rotate: 20,
+      duration: 2,
+    },
+    "label-random-words-=2"
+  );
+
+  tl.fromTo(
+    "#post-it-2-random-words",
+    {
+      top: -400,
+      rotate: 0,
+    },
+    {
+      top: 350,
+      rotate: 5,
+      duration: 2,
+    },
+    "label-random-words-=2"
+  );
+
+  tl.fromTo(
+    "#post-it-3-random-words",
+    {
+      top: -300,
+      rotate: -70,
+    },
+    {
+      top: 100,
+      rotate: 5,
+      duration: 2,
+    },
+    "label-random-words-=1.8"
+  );
+
+  tl.fromTo(
+    "#post-it-4-random-words",
+    {
+      top: -400,
+      rotate: 50,
+    },
+    {
+      top: 600,
+      rotate: -18,
+      duration: 2,
+    },
+    "label-random-words-=1.8"
+  );
+
+  tl.fromTo(
+    "#post-it-5-random-words",
+    {
+      top: -400,
+      rotate: 0,
+    },
+    {
+      top: 350,
+      rotate: 8,
+      duration: 2,
+    },
+    "label-random-words-=1.8"
+  );
+
+  tl.fromTo(
+    "#post-it-6-random-words",
+    {
+      top: -400,
+      rotate: 50,
+    },
+    {
+      top: 100,
+      rotate: -5,
+      duration: 2,
+    },
+    "label-random-words-=1.6"
+  );
+
+  tl.fromTo(
+    "#post-it-7-random-words",
+    {
+      top: -400,
+      rotate: 0,
+    },
+    {
+      top: 350,
+      rotate: 5,
+      duration: 2,
+    },
+    "label-random-words-=1.6"
+  );
+
+  return tl;
+};

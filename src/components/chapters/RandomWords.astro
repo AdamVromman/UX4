@@ -1,9 +1,89 @@
 ---
-
+import ChapterHead from "../ChapterHead.astro";
+import PostIt from "../PostIt.astro";
 ---
 
 <div
   id="random-words"
   class="chapter h-full visible-page-width-disabled relative"
 >
+  <ChapterHead
+    title="Diverging: Random Word Association"
+    bottom={true}
+    height={30}
+  />
+  <div
+    class="flex flex-row justify-between w-[1000px] h-full pt-40 relative left-[500px]"
+  >
+    <div class="text-center">
+      <span class="text-white font-io-semibold text-4xl">Pull</span>
+      <PostIt
+        text="A sweater that monitors the vital signs of the person wearing it and transmits them"
+        name="adam"
+        color="green"
+        id={0}
+        chapter="random-words"
+      />
+      <PostIt
+        text="A device that an old person needs to pull every 24/48 hours to show that they are still alive"
+        name="adam"
+        color="green"
+        id={1}
+        chapter="random-words"
+      />
+      <PostIt
+        text="Sweaters that show people that you are open to talk to/can guide them around the neighbourhood"
+        name="adam"
+        color="green"
+        id={2}
+        chapter="random-words"
+      />
+    </div>
+    <div class="text-center">
+      <span class="text-white font-io-semibold text-4xl">Stress</span>
+      <PostIt
+        text="Organise walks throughout the neighbourhood to relieve stress"
+        name="adam"
+        color="grey"
+        id={3}
+        chapter="random-words"
+      />
+      <PostIt
+        text="Neighbourhood dogs that are free to roam the streets and kinda belong to everyone"
+        name="adam"
+        color="grey"
+        id={4}
+        chapter="random-words"
+      />
+      <PostIt
+        text="two buttons: one for the old person, one for the family member. When one of the two feels stress about the safety of the other one, push the button and the other side lights up"
+        name="adam"
+        color="grey"
+        id={5}
+        chapter="random-words"
+      />
+    </div>
+    <div class="text-center">
+      <span class="text-white font-io-semibold text-4xl">Imposter</span>
+      <PostIt
+        text="A little imposter statue that you can place in your house and monitors the sounds/movement in the house"
+        name="adam"
+        color="orange"
+        id={6}
+        chapter="random-words"
+      />
+      <PostIt
+        text="Same as the previous one, except it’s a game where the imposter needs to be place throughout the neighbourhood. That way we also check who is active and who isn’t"
+        name="adam"
+        color="orange"
+        id={7}
+        chapter="random-words"
+      />
+    </div>
+  </div>
 </div>
+<style>
+  #random-words {
+    @apply min-w-[1700px];
+  }
+</style>
