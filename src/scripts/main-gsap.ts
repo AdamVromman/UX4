@@ -5,6 +5,7 @@ import { Draggable } from "gsap/Draggable";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import {
   alphabetAnimation,
+  biasesAnimation,
   brainstormAnimation,
   chapters,
   designPrinciplesAnimation,
@@ -100,6 +101,7 @@ const initTimeline = () => {
   timeline = designPrinciplesAnimation(timeline);
   timeline = alphabetAnimation(timeline);
   timeline = flippedAssumptionsAnimation(timeline);
+  timeline = biasesAnimation(timeline);
 };
 
 window.addEventListener("load", initTimeline);

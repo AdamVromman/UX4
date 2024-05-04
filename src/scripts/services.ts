@@ -562,3 +562,63 @@ export const flippedAssumptionsAnimation = (tl: gsap.core.Timeline) => {
 
   return tl;
 };
+
+export const biasesAnimation = (tl: gsap.core.Timeline) => {
+  tl.to(
+    "#post-it-0-biases",
+    {
+      left: "250px",
+      top: "300px",
+      rotate: -2,
+      duration: 3.5,
+      ease: "power1.out",
+    },
+    "label-biases-=3.5"
+  );
+  tl.to(
+    "#post-it-1-biases",
+    {
+      left: "900px",
+      top: "65px",
+      rotate: 4,
+      duration: 3.5,
+      ease: "power1.out",
+    },
+    "label-biases-=3.5"
+  );
+  tl.to(
+    "#post-it-2-biases",
+    {
+      left: "600px",
+      top: "600px",
+      rotate: 5,
+      duration: 3.5,
+      ease: "power1.out",
+    },
+    "label-biases-=3.5"
+  );
+  tl.to(
+    "#post-it-3-biases",
+    {
+      left: "1000px",
+      top: "500",
+      rotate: -5,
+      duration: 3.5,
+      ease: "power1.out",
+    },
+    "label-biases-=3.5"
+  );
+  tl.to(
+    "#post-it-4-biases",
+    {
+      left: "25%",
+      top: "7%",
+      rotate: -10,
+      duration: 3.5,
+      ease: "power1.out",
+    },
+    "label-biases-=3.5"
+  );
+
+  return tl;
+};

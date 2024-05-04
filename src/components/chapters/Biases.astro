@@ -1,6 +1,65 @@
 ---
-
+import ChapterHead from "../ChapterHead.astro";
+import PostIt from "../PostIt.astro";
 ---
 
 <div id="biases" class="chapter h-full visible-page-width-disabled relative">
+  <ChapterHead title="Diverging: Bias" bottom={false} height={100} />
+
+  <div
+    class="flex flex-col w-fit top-1/2 -translate-y-[50%] left-[500px] items-center gap-20 bg-orange px-80 py-20 rounded-full -rotate-3 relative z-20"
+  >
+    <span class="text-white font-io-regular text-3xl"
+      >Illusion of Transparency</span
+    ><span
+      >The tendency for people to overestimate the degree to which their
+      personal mental state is known by others, and to overestimate how well
+      they understand others' personal mental states.</span
+    >
+  </div>
+  <PostIt
+    text="A place where we can hear what the elderly have to say, where they can share their ideas, talk about how neighbourhoods were connected when they were young."
+    color="green"
+    name="ella"
+    id={0}
+    chapter="biases"
+    stay={false}
+  />
+  <PostIt
+    text="Empathy Workshops"
+    color="grey"
+    name="ella"
+    id={1}
+    chapter="biases"
+    stay={false}
+  />
+  <PostIt
+    text="A way to get the elderly talking about what they need, but it has to be in a special way because talking about feelings is taboe"
+    color="blue"
+    name="ella"
+    id={2}
+    chapter="biases"
+    stay={false}
+  />
+  <PostIt
+    text="App where they can show if they want someone to talk to / if they want to help"
+    color="green"
+    name="ella"
+    id={3}
+    chapter="biases"
+    stay={false}
+  />
+  <PostIt
+    text="Podcast haha, they can talk about what it feels like to be granny and what they wished people did. Everyone can learn."
+    color="grey"
+    name="ella"
+    id={4}
+    chapter="biases"
+    stay={false}
+  />
 </div>
+<style>
+  #biases {
+    @apply min-w-[1400px];
+  }
+</style>
