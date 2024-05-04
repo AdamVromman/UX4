@@ -1,6 +1,104 @@
 ---
-
+import ChapterHead from "../ChapterHead.astro";
 ---
 
 <div id="crazy-8" class="chapter h-full visible-page-width-disabled relative">
+  <ChapterHead title="Diverging: Crazy 8." bottom={false} height={300} />
+  <div
+    class="flex flex-row items-center h-[600px] bg-grey relative top-1/2 -translate-y-[50%] flex-wrap w-[1700px] left-[30px]"
+  >
+    <div class="card relative w-1/4 h-[300px] flex justify-center items-center">
+      <img class="w-[90%]" src="./crazy8-1.png" />
+      <div
+        class="card-info absolute w-full h-full bg-green text-black flex justify-center items-center p-40"
+      >
+        A game where children try to look for patterns in a movement map of the
+        neighbourhood to spot if anything is out of the ordinary.
+      </div>
+    </div>
+    <div class="card relative w-1/4 h-[300px] flex justify-center items-center">
+      <img class="w-[90%]" src="./crazy8-2.png" />
+      <div
+        class="card-info absolute w-full h-full bg-green text-black flex justify-center items-center p-40"
+      >
+        The flag idea.
+      </div>
+    </div>
+    <div class="card relative w-1/4 h-[300px] flex justify-center items-center">
+      <img class="w-[90%]" src="./crazy8-3.png" />
+      <div
+        class="card-info absolute w-full h-full bg-green text-black flex justify-center items-center p-40"
+      >
+        People in the neighbourhood get a sort of tablet with a very simple
+        interface to contact your neighbours in cases of emergency.
+      </div>
+    </div>
+    <div class="card relative w-1/4 h-[300px] flex justify-center items-center">
+      <img class="w-[90%]" src="./crazy8-4.png" />
+      <div
+        class="card-info absolute w-full h-full bg-green text-black flex justify-center items-center p-40"
+      >
+        A device that an old person can keep with them at all times. A very
+        simple layout with only 2-3 buttons allows them to call for help when
+        necessary.
+      </div>
+    </div>
+    <div class="card relative w-1/4 h-[300px] flex justify-center items-center">
+      <img class="w-[90%]" src="./crazy8-5.png" />
+      <div
+        class="card-info absolute w-full h-full bg-green text-black flex justify-center items-center p-40"
+      >
+        Posters on the doors let neighbours know that everything is fine, that
+        you need some check up or that you are not well.
+      </div>
+    </div>
+    <div class="card relative w-1/4 h-[300px] flex justify-center items-center">
+      <img class="w-[90%]" src="./crazy8-6.png" />
+      <div
+        class="card-info absolute w-full h-full bg-green text-black flex justify-center items-center p-40"
+      >
+        Microphones throughout the house listen to any unusual sound and alert
+        the family/authorities if necessary.
+      </div>
+    </div>
+    <div class="card relative w-1/4 h-[300px] flex justify-center items-center">
+      <img class="w-[90%]" src="./crazy8-7.png" />
+      <div
+        class="card-info absolute w-full h-full bg-green text-black flex justify-center items-center p-40"
+      >
+        A system where one person (a social worker) check in on two people (that
+        are probably doing fine) who check up on 2 more people. Going down the
+        ladder of privilege basically. In the end they report back to the person
+        above them and the social worker finds out how the neighbourhood is
+        doing.
+      </div>
+    </div>
+    <div class="card relative w-1/4 h-[300px] flex justify-center items-center">
+      <img class="w-[90%]" src="./crazy8-8.png" />
+      <div
+        class="card-info absolute w-full h-full bg-green text-black flex justify-center items-center p-40"
+      >
+        An app where a select group of people can see who are the vulnerable
+        people in the neighbourhood who might need checking up on. Can be
+        combine with visible physical object
+      </div>
+    </div>
+  </div>
 </div>
+<style>
+  #crazy-8 {
+    @apply min-w-[1900px];
+  }
+
+  .card-info {
+    @apply opacity-0;
+  }
+
+  .card {
+    &:hover {
+      .card-info {
+        @apply opacity-100;
+      }
+    }
+  }
+</style>
