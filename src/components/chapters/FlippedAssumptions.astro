@@ -1,9 +1,176 @@
 ---
-
+import ChapterHead from "../ChapterHead.astro";
 ---
 
 <div
   id="flipped-assumptions"
   class="chapter h-full visible-page-width-disabled relative"
 >
+  <ChapterHead
+    title="Diverging: Flipped Assumptions."
+    bottom={false}
+    height={20}
+  />
+  <div
+    class="flex flex-row gap-40 z-40 relative left-[700px] top-1/2 -translate-y-[50%]"
+  >
+    <div>
+      <div class="relative fa-assumption z-20">
+        <span>elderly people are fragile and helpless</span>
+        <span class="fa-flip"
+          >Elderly people can do a lot on themselves, they can even be HELPFUL</span
+        >
+      </div>
+
+      <span class="fa-result idea"
+        >Elderly can contribute to a certain kind of database -> they feel
+        helpful instead of helpless</span
+      >
+    </div>
+    <div>
+      <div class="relative fa-assumption z-20">
+        <span>elderly people CAN not use phones</span>
+        <span class="fa-flip"
+          >Elderly can easily learn how to use phones, they can adapt</span
+        >
+      </div>
+
+      <span class="fa-result thought"
+        >An app shouldn’t be completely ruled out. They can adapt and learn, but
+        it just has to be granny-friendly.</span
+      >
+    </div>
+    <div>
+      <div class="relative fa-assumption z-20">
+        <span>elderly people DO not use phones</span>
+        <span class="fa-flip">Elderly use phones</span>
+      </div>
+
+      <span class="fa-result thought"
+        >A lot of them already use phones to have contact with their family</span
+      >
+    </div>
+    <div>
+      <div class="relative fa-assumption z-20">
+        <span
+          >elderly people have slower reaction times to/during emergencies</span
+        >
+        <span class="fa-flip"
+          >Elderly know exactly what they need to do in emergencies, they are
+          prepared all their life</span
+        >
+      </div>
+
+      <span class="fa-result idea"
+        >An app where they can to a fun little quiz everyday/week/month to make
+        sure that they know what to do in case of emergency.</span
+      >
+    </div>
+    <div>
+      <div class="relative fa-assumption z-20">
+        <span>there aren’t many emergencies</span>
+        <span class="fa-flip">There are a lot of emergencies</span>
+      </div>
+
+      <span class="fa-result idea"
+        >Emergency network that let’s you know when an emergency is
+        happening/has happened. Link with the governement.</span
+      >
+    </div>
+    <div>
+      <div class="relative fa-assumption z-20">
+        <span>neighbourhoods are disconnected</span>
+        <span class="fa-flip"
+          >NBH are very connected and everyone helps each other</span
+        >
+      </div>
+
+      <span class="fa-result thought"
+        >a turn between the neighbours to check up on the elderly. Maybe the
+        elderly don’t even need to know?</span
+      >
+    </div>
+    <div>
+      <div class="relative fa-assumption z-20">
+        <span>connected neighbourhoods are a good thing</span>
+        <span class="fa-flip">Connected NBH aren’t necessary a good thing</span>
+      </div>
+
+      <span class="fa-result idea"
+        >Research about this and results are displayed in a video</span
+      >
+    </div>
+    <div>
+      <div class="relative fa-assumption z-20">
+        <span>elderly people wanted to be checked upon.</span>
+        <span class="fa-flip"
+          >Elderly don’t want to be checked upon, it makes them feel old and
+          useless. They need their privacy.</span
+        >
+      </div>
+
+      <span class="fa-result idea"
+        >A system that doesn’t take away their privacy and makes them feel
+        helpful. People can choose how much privacy they want, it’s different
+        for everyone. They can choose themselves what information to share.</span
+      >
+    </div>
+    <div>
+      <div class="relative fa-assumption z-20">
+        <span
+          >some people with disabilities are vulnerable and need checking</span
+        >
+        <span class="fa-flip"
+          >People with disabilities aren’t vulnerable and don’t need checking,
+          they can live independent</span
+        >
+      </div>
+
+      <span class="fa-result idea"
+        >A device that checks the house for possible dangers, like old wood in
+        staircase or something.</span
+      >
+    </div>
+    <div>
+      <div class="relative fa-assumption z-20">
+        <span>in general, people would like to help vulnerable people</span>
+        <span class="fa-flip"
+          >People don’t want to help vulnerable people, everyones life is
+          already way too busy. People are egocentric.</span
+        >
+      </div>
+
+      <span class="fa-result idea"
+        >Little “kindness” challenges where you can earn something when you help
+        out</span
+      >
+    </div>
+  </div>
 </div>
+<style>
+  #flipped-assumptions {
+    @apply min-w-[3500px];
+  }
+
+  .fa-assumption,
+  .fa-flip,
+  .fa-result {
+    @apply block w-[250px] h-[250px] max-h-[250px] max-w-[250px] p-20;
+  }
+
+  .fa-assumption {
+    @apply bg-white text-orange;
+  }
+
+  .fa-flip {
+    @apply rotate-180 absolute top-0 left-0;
+  }
+
+  .fa-result {
+    @apply bg-blue text-white;
+
+    &.thought {
+      @apply bg-green text-black;
+    }
+  }
+</style>

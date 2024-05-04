@@ -8,6 +8,7 @@ import {
   brainstormAnimation,
   chapters,
   designPrinciplesAnimation,
+  flippedAssumptionsAnimation,
   getChaptersWidth,
   targetAudienceAnimation,
 } from "./services";
@@ -98,6 +99,7 @@ const initTimeline = () => {
   timeline = targetAudienceAnimation(timeline);
   timeline = designPrinciplesAnimation(timeline);
   timeline = alphabetAnimation(timeline);
+  timeline = flippedAssumptionsAnimation(timeline);
 };
 
 window.addEventListener("load", initTimeline);

@@ -539,3 +539,26 @@ export const alphabetAnimation = (tl: gsap.core.Timeline) => {
 
   return tl;
 };
+
+export const flippedAssumptionsAnimation = (tl: gsap.core.Timeline) => {
+  tl.to(
+    ".fa-assumption",
+    {
+      rotate: 180,
+      background: "#F57939",
+      color: "#E0E6E6",
+      duration: 0.5,
+      ease: "power3.inOut",
+      stagger: 0.47,
+    },
+    "label-flipped-assumptions-=0.5"
+  );
+
+  tl.from(
+    ".fa-result",
+    { y: "-100%", duration: 0.5, ease: "power3.out", stagger: 0.47 },
+    "label-flipped-assumptions-=0.2"
+  );
+
+  return tl;
+};
