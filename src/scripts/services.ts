@@ -533,8 +533,8 @@ export const alphabetAnimation = (tl: gsap.core.Timeline) => {
 
   tl.to(
     ".alphabet-all-letters",
-    { x: 1800, duration: 5.5 },
-    "label-alphabet+=1"
+    { x: 3400, duration: 5 },
+    "label-alphabet+=0.8"
   );
 
   return tl;
@@ -549,14 +549,14 @@ export const flippedAssumptionsAnimation = (tl: gsap.core.Timeline) => {
       color: "#E0E6E6",
       duration: 0.5,
       ease: "power3.inOut",
-      stagger: 0.47,
+      stagger: 0.37,
     },
     "label-flipped-assumptions-=0.5"
   );
 
   tl.from(
     ".fa-result",
-    { y: "-100%", duration: 0.5, ease: "power3.out", stagger: 0.47 },
+    { y: "-100%", duration: 0.5, ease: "power3.out", stagger: 0.37 },
     "label-flipped-assumptions-=0.2"
   );
 
@@ -747,7 +747,7 @@ export const votingAnimation = (tl: gsap.core.Timeline) => {
       duration: 0.5,
       stagger: 0.5,
     },
-    "label-converging-voting-=1.5"
+    "label-converging-voting-=1.2"
   );
 
   tl.to(
@@ -757,7 +757,7 @@ export const votingAnimation = (tl: gsap.core.Timeline) => {
       duration: 0.5,
       stagger: 0.5,
     },
-    "label-converging-voting-=1.5"
+    "label-converging-voting-=1.2"
   );
 
   tl.from(
@@ -766,7 +766,7 @@ export const votingAnimation = (tl: gsap.core.Timeline) => {
       y: -500,
       opacity: 0,
       duration: 0.5,
-      stagger: 0.5,
+      stagger: 0.45,
     },
     "label-converging-voting-=1"
   );
@@ -777,7 +777,7 @@ export const votingAnimation = (tl: gsap.core.Timeline) => {
       y: -500,
       opacity: 0,
       duration: 0.5,
-      stagger: 0.5,
+      stagger: 0.45,
     },
     "label-converging-voting-=1"
   );
