@@ -1,7 +1,6 @@
 ---
 import ChapterHead from "../ChapterHead.astro";
 import ConclusionBox from "../ConclusionBox.astro";
-import Test from "../Test.astro";
 ---
 
 <div
@@ -46,16 +45,13 @@ import Test from "../Test.astro";
             <li class="test-line">
               <span>TA using the flower.</span>
             </li>
-            <li class="test-line">
-              <span>TA listening to sounds coming from flower.</span>
-            </li>
           </ul>
         </div>
         <div class="test-s">
           <span class="test-q">What is the user goal?</span>
           <ul class="test-a">
             <li class="test-line">
-              <span>To listen to the flower as intended.</span>
+              <span>To turn on the flower as intended.</span>
             </li>
           </ul>
         </div>
@@ -63,10 +59,7 @@ import Test from "../Test.astro";
           <span class="test-q">What materials do we need?</span>
           <ul class="test-a">
             <li class="test-line">
-              <span>Prototype 1.</span>
-            </li>
-            <li class="test-line">
-              <span>Phone for calling.</span>
+              <span>Prototype 2.</span>
             </li>
             <li class="test-line">
               <span>Phone for recording.</span>
@@ -130,10 +123,10 @@ import Test from "../Test.astro";
           >
           <ul class="test-a">
             <li class="test-line">
-              <span>What did you feel when you heard the city?</span>
+              <span>Did you enjoy the concept?</span>
             </li>
             <li class="test-line">
-              <span>Did you hear it well enough?</span>
+              <span>How was the experience of turning it on and off?</span>
             </li>
           </ul>
         </div>
@@ -160,11 +153,6 @@ import Test from "../Test.astro";
         <div
           class="h-[60px] border-b-[1px] border-grey flex justify-center items-center bg-white sticky top-0"
         >
-          What are they feeling?
-        </div>
-        <div
-          class="h-[60px] border-b-[1px] border-grey flex justify-center items-center bg-white sticky top-0"
-        >
           Notes
         </div>
         <div
@@ -180,29 +168,28 @@ import Test from "../Test.astro";
           talk to people face to face”</span
         >
         <span>He doesn’t look interested</span>
-        <span>/</span>
         <span>2/5</span>
 
         <span>2</span>
         <span>1</span>
         <span>/</span>
-        <span>He seems okay with turning it off</span>
         <span
-          >We need to consider that some people like it more to be alone</span
+          >He seems okay with turning it off. We need to consider that some
+          people like it more to be alone</span
         >
         <span>3/5</span>
 
         <span>1</span>
         <span>2</span>
-        <span></span>
-        <span
-          >The man looks at the device and touches it. He seems confused</span
-        >
-        <span>He needed our guidance to turn it on.</span>
-        <span>1/5</span>
-        <span>2</span>
-        <span>2</span>
         <span>/</span>
+        <span
+          >He needed our guidance to turn it on. The man looks at the device and
+          touches it. He seems confused</span
+        >
+        <span>1/5</span>
+
+        <span>2</span>
+        <span>2</span>
         <span
           >“If one thing goes wrong people my age are instantly confused,
           everything should be perfect from the get go”</span
@@ -220,15 +207,6 @@ import Test from "../Test.astro";
             the feeling of smart device with out Target Audience. Our
             assumptions about TA being not crazy about having smart devices were
             confirmed, how can we make it even friendlier?
-          </span>
-        </ConclusionBox>
-      </div>
-      <div class="absolute bottom-[20%]">
-        <ConclusionBox chapter="prototype-lights" id={0} black={true}>
-          <span
-            >The audio connection was not clear enough for the users at home ->
-            The connection is quite clear for users in city, but how can we make
-            it even clearer?
           </span>
         </ConclusionBox>
       </div>
@@ -251,7 +229,7 @@ import Test from "../Test.astro";
 
   .test-grid {
     @apply grid  border-grey bg-white border-t-[1px] border-l-[1px] w-[1200px] max-h-[700px] overflow-auto;
-    grid-template-columns: 60px 60px 1fr 1fr 1fr 60px;
+    grid-template-columns: 60px 60px 1fr 1fr 60px;
 
     span {
       @apply flex justify-center items-center border-grey border-b-[1px] border-r-[1px] p-10;
