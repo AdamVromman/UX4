@@ -37,12 +37,12 @@ const initTimeline = () => {
 
   timeline.to(
     "#circle-top",
-    { rotate: 1080, ease: EASE, duration: DURATION },
+    { rotate: 1980, ease: EASE, duration: DURATION },
     START
   );
   timeline.to(
     "#circle-bottom",
-    { rotate: -1080, ease: EASE, duration: DURATION },
+    { rotate: -1980, ease: EASE, duration: DURATION },
     START
   );
   timeline.fromTo(
