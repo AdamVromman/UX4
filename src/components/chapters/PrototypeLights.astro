@@ -1,5 +1,6 @@
 ---
 import ChapterHead from "../ChapterHead.astro";
+import ConclusionBox from "../ConclusionBox.astro";
 ---
 
 <div
@@ -15,12 +16,32 @@ import ChapterHead from "../ChapterHead.astro";
     ></ChapterHead
   >
   <img
-    class="parallax-plane-1-prototype-lights relative left-[700px] top-1/2 -translate-y-[50%]"
+    class="parallax-plane-1-prototype-lights relative z-20 left-[700px] top-1/2 -translate-y-[50%]"
     src="prototype-lights.png"
   />
+  <div class="absolute top-[20%] left-[1200px]">
+    <ConclusionBox chapter="prototype-lights" id={0} black={false}>
+      <span
+        >The arduino setup with WebRTC connection really helped us to test the
+        feeling of smart device with out Target Audience. Our assumptions about
+        TA being not crazy about having smart devices were confirmed, how can we
+        make it even friendlier?
+      </span>
+    </ConclusionBox>
+  </div>
+  <div class="absolute bottom-[20%] left-[1200px]">
+    <ConclusionBox chapter="prototype-lights" id={0} black={true}>
+      <span
+        >The audio connection was not clear enough for the users at home -> The
+        connection is quite clear for users in city, but how can we make it even
+        clearer?
+      </span>
+    </ConclusionBox>
+  </div>
 </div>
+
 <style>
   #prototype-lights {
-    @apply min-w-[1400px];
+    @apply min-w-[2300px];
   }
 </style>

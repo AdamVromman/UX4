@@ -34,9 +34,9 @@ export const chapters = [
   "wireflows-app",
   "prototype-app-paper",
   "prototype-app-figma",
-  "test-1",
-  "test-2",
-  "test-3",
+  // "test-1",
+  // "test-2",
+  // "test-3",
   "conclusions",
 ];
 
