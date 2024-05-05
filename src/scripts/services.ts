@@ -739,7 +739,7 @@ export const randomWordsAnimation = (tl: gsap.core.Timeline) => {
   return tl;
 };
 
-export const votingAnimations = (tl: gsap.core.Timeline) => {
+export const votingAnimation = (tl: gsap.core.Timeline) => {
   tl.to(
     ".no-votes",
     {
@@ -759,6 +759,16 @@ export const votingAnimations = (tl: gsap.core.Timeline) => {
       stagger: 0.7,
     },
     "label-converging-voting-=1.7"
+  );
+
+  return tl;
+};
+
+export const userScenariosAnimation = (tl: gsap.core.Timeline) => {
+  tl.to(
+    ".user-scenarios-guide",
+    { left: "65%", duration: 2.5, ease: "none" },
+    "label-user-scenarios-=0.2"
   );
 
   return tl;

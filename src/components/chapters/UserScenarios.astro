@@ -6,5 +6,255 @@ import ChapterHead from "../ChapterHead.astro";
   id="user-scenarios"
   class="chapter h-full visible-page-width-disabled relative"
 >
-  <ChapterHead title="User Scenarios." bottom={true} height={150} />
+  <ChapterHead title="User Scenarios." bottom={false} height={150} />
+  <div class="user-scenarios-guide absolute left-[50px] top-[60%]">
+    <h4 class="text-grey absolute left-0 top-0">Guide</h4>
+    <div class="flex flex-row h-[50%] relative">
+      <div class="guide-item guide-item-persona">
+        <img
+          class="user-scenario-shape user-scenarios-shape-cw"
+          src="./shape-1.svg"
+        />
+
+        <span class="font-io-regular text-xl">User persona</span>
+      </div>
+      <div class="guide-item guide-item-goals">
+        <img
+          class="user-scenario-shape user-scenarios-shape-ccw"
+          src="./shape-2.svg"
+        />
+        <span class="font-io-regular text-xl">Goals/Tasks</span>
+      </div>
+      <div class="guide-item guide-item-context">
+        <img
+          class="user-scenario-shape user-scenarios-shape-cw"
+          src="./shape-3.svg"
+        />
+        <span class="font-io-regular text-xl">Context</span>
+      </div>
+      <div class="guide-item guide-item-completion">
+        <img
+          class="user-scenario-shape user-scenarios-shape-ccw"
+          src="./shape-4.svg"
+        />
+        <span class="font-io-regular text-xl">Path To Completion</span>
+      </div>
+      <div class="guide-item guide-item-points">
+        <img
+          class="user-scenario-shape user-scenarios-shape-cw"
+          src="./shape-5.svg"
+        />
+        <span class="font-io-regular text-xl">Friction Points</span>
+      </div>
+    </div>
+  </div>
+
+  <div
+    class="absolute top-20 left-[400px] h-2/5 flex flex-row items-center text-white gap-130"
+  >
+    <div class="scenario">
+      <h5>Dumbledore</h5><p>
+        <span class="user-scenario-text-persona"
+          >This is Dumbledore an introverted man</span
+        >
+        <span class="user-scenario-text-goals"
+          >who wants to feel more connected to the outer world and his family,
+          especially his kids who live far away.</span
+        >
+        <span
+          >Dumbledore decides to use the tulip device to connect with the city
+          and potentially engage in conversations with people nearby.
+        </span><span class="user-scenario-text-context"
+          >He lives in an apartment and enjoys daily walks around the
+          neighbourhood.</span
+        >
+        <span class="user-scenario-text-completion"
+          >Dumbledore presses the button on his tulip device, activating its
+          counterpart in the city square.</span
+        >
+        <span class="user-scenario-text-points"
+          >Dumbledore initially feels hesitant about reaching out to strangers,
+          because he’s an introvert.
+        </span>
+      </p>
+    </div>
+    <div class="scenario">
+      <h5>Pomona</h5><p>
+        <span class="user-scenario-text-persona"
+          >This is Pomona, a social woman, who loves gardening.</span
+        >
+        <span class="user-scenario-text-goals"
+          >She wants to deepen her connections with people, especially those of
+          a younger age group, and feel a greater sense of belonging.</span
+        >
+
+        <span>
+          Pomona decides to use the tulip device to initiate connections with
+          people in her city, she hopes to have meaningful conversations.
+        </span><span class="user-scenario-text-context"
+          >Pomona lives in a small house with a garden and spends a lot of time
+          outdoors.</span
+        >
+        <span class="user-scenario-text-completion"
+          >Pomona activates her tulip device, signaling her availability for
+          conversation. She then waits for responses from people in the city
+          square.</span
+        >
+        <span class="user-scenario-text-points">
+          Her friendships are based around gardening, but what if the people on
+          the other side of the tulip don’t care about gardening?
+        </span>
+      </p>
+    </div>
+    <div class="scenario">
+      <h5>Peter</h5><p>
+        <span class="user-scenario-text-persona"
+          >This is Peter, an always kind, sporty, rather shy boy,</span
+        >
+        <span class="user-scenario-text-goals">
+          who wants to contribute to his community and help older people feel
+          more connected, all while maintaining his privacy.</span
+        >
+        <span>
+          Peter notices the tulip device on the city square, he wants to help
+          those who need it by a chat.
+        </span><span class="user-scenario-text-context"
+          >Peter lives in a small house with his Aunt and Uncle and attends
+          school.
+        </span>
+        <span class="user-scenario-text-completion"
+          >Peter sees the activation of the tulip device, he uses the tablet to
+          send a voice memo to the person on the other end.</span
+        >
+        <span class="user-scenario-text-points"
+          >Peter struggles with balancing his desire to help others with his
+          need to protect his identity.
+        </span>
+      </p>
+    </div>
+    <div class="scenario">
+      <h5>Kate</h5><p>
+        <span class="user-scenario-text-persona"
+          >This is Kate, a highly empathetic boss lady,</span
+        >
+        <span class="user-scenario-text-goals"
+          >wants to stay connected with her elderly family members, despite her
+          busy schedule, and ensure their well-being.</span
+        >
+        <span
+          >Kate uses the app to check in on her elderly family member who has
+          the tulip device, ensuring they are happy and healthy.
+        </span><span class="user-scenario-text-context"
+          >Kate leads a busy life running her PR company and balancing her
+          commitments.</span
+        >
+        <span class="user-scenario-text-completion"
+          >Kate opens the app on her phone and checks the status of her family
+          member's tulip device. She sees that it's activated and uses the app's
+          communication feature to engage in conversation.</span
+        >
+        <span class="user-scenario-text-points"
+          >Kate may struggle with finding time in her busy schedule to check in
+          on her family member.
+        </span>
+      </p>
+    </div>
+  </div>
+  <script>
+    import { gsap } from "gsap";
+    gsap.to(".user-scenarios-shape-cw", {
+      rotate: 360,
+      duration: 60,
+      repeat: -1,
+      ease: "none",
+    });
+
+    gsap.to(".user-scenarios-shape-ccw", {
+      rotate: -360,
+      duration: 60,
+      repeat: -1,
+      ease: "none",
+    });
+  </script>
+  <style>
+    #user-scenarios {
+      @apply min-w-[3500px];
+
+      &:has(.guide-item-persona:hover) {
+        .scenario {
+          span:not(.user-scenario-text-persona) {
+            @apply opacity-5;
+          }
+        }
+      }
+
+      &:has(.guide-item-goals:hover) {
+        .scenario {
+          span:not(.user-scenario-text-goals) {
+            @apply opacity-5;
+          }
+        }
+      }
+
+      &:has(.guide-item-context:hover) {
+        .scenario {
+          span:not(.user-scenario-text-context) {
+            @apply opacity-5;
+          }
+        }
+      }
+
+      &:has(.guide-item-completion:hover) {
+        .scenario {
+          span:not(.user-scenario-text-completion) {
+            @apply opacity-5;
+          }
+        }
+      }
+
+      &:has(.guide-item-points:hover) {
+        .scenario {
+          span:not(.user-scenario-text-points) {
+            @apply opacity-5;
+          }
+        }
+      }
+    }
+
+    .user-scenario-text-persona {
+      @apply bg-orange text-blue;
+    }
+
+    .user-scenario-text-goals {
+      @apply bg-green text-blue;
+    }
+
+    .user-scenario-text-context {
+      @apply bg-blue text-white border-[0.1px] border-white;
+    }
+
+    .user-scenario-text-completion {
+      @apply bg-grey text-white;
+    }
+
+    .user-scenario-text-points {
+      @apply bg-white text-blue;
+    }
+
+    .guide-item {
+      @apply flex flex-col items-center h-full w-[200px] justify-end;
+    }
+
+    .user-scenario-shape {
+      @apply w-full;
+    }
+
+    .scenario {
+      @apply flex flex-col gap-10;
+
+      h5 {
+        @apply font-io-thin text-lg;
+      }
+    }
+  </style>
 </div>

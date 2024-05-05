@@ -13,7 +13,8 @@ import {
   getChaptersWidth,
   randomWordsAnimation,
   targetAudienceAnimation,
-  votingAnimations,
+  userScenariosAnimation,
+  votingAnimation,
 } from "./services";
 
 const DURATION = 100,
@@ -95,7 +96,8 @@ const initTimeline = () => {
   timeline = flippedAssumptionsAnimation(timeline);
   timeline = biasesAnimation(timeline);
   timeline = randomWordsAnimation(timeline);
-  timeline = votingAnimations(timeline);
+  timeline = votingAnimation(timeline);
+  timeline = userScenariosAnimation(timeline);
 };
 
 window.addEventListener("load", initTimeline);
