@@ -1,5 +1,6 @@
 ---
 import ChapterHead from "../ChapterHead.astro";
+import ConclusionBox from "../ConclusionBox.astro";
 ---
 
 <div
@@ -11,14 +12,64 @@ import ChapterHead from "../ChapterHead.astro";
       >CONCLUSIONS.</span
     >
   </div>
+  <div class="relative left-[500px] h-full w-[1000px]">
+    <ConclusionBox black={false} id={0} chapter="conclusions"
+      ><span
+        >Our assumptions about our primary stakeholders were not confirmed,
+        actually they got flipped. We noticed during our testing that our
+        primary stakeholders were less enthusiastic about being able to listen
+        to voice memos from strangers than our secondary stakeholders.</span
+      ></ConclusionBox
+    >
+
+    <ConclusionBox black={false} id={1} chapter="conclusions"
+      ><span
+        >Because we found out that our secondary stakeholders might be more
+        interested in our product we should do more prototype testing with them.
+      </span></ConclusionBox
+    >
+
+    <ConclusionBox black={false} id={2} chapter="conclusions"
+      ><span
+        >During testing we found out that there must be more work done on the
+        iPad app flow. Not every tester was able to use the iPad interface
+        without failures. We will test the interface more to find out where the
+        exact problems are.
+      </span></ConclusionBox
+    >
+
+    <ConclusionBox black={true} id={3} chapter="conclusions"
+      ><span
+        >Our app has a lot of potential, but we still need to do research on it
+        to make sure the user will be satisfied.</span
+      ></ConclusionBox
+    >
+
+    <ConclusionBox black={true} id={4} chapter="conclusions"
+      ><span
+        >We got the feedback of a tester that the house plant should have volume
+        control.</span
+      ></ConclusionBox
+    >
+    <ConclusionBox black={true} id={5} chapter="conclusions"
+      ><span
+        >A lot of people feel lonely sometimes and our tulip could bring a
+        little happy moments in their lives.</span
+      ></ConclusionBox
+    >
+  </div>
   <ChapterHead title="Conclusions." bottom={false} height={50} />
-  <div class="" style="padding:52.73% 0 0 0;">
+  <div class="w-[800px] absolute right-40 top-0" style="padding:52.73% 0 0 0;">
     <iframe
       src="https://player.vimeo.com/video/942721341?badge=0&autopause=0&player_id=0&app_id=58479"
       allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
       style="position:absolute;top:0;left:0;width:100%;height:100%;"
       title="ux-research-tulips"></iframe>
   </div>
-  <div></div>
   <script src="https://player.vimeo.com/api/player.js"></script>
 </div>
+<style>
+  #conclusions {
+    @apply min-w-[2500px];
+  }
+</style>
