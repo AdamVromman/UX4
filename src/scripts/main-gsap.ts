@@ -8,6 +8,7 @@ import {
   biasesAnimation,
   brainstormAnimation,
   chapters,
+  ConclusionsAnimation,
   designPrinciplesAnimation,
   flippedAssumptionsAnimation,
   getChaptersWidth,
@@ -100,6 +101,7 @@ const initTimeline = () => {
   timeline = votingAnimation(timeline);
   timeline = userScenariosAnimation(timeline);
   timeline = userStoriesAnimation(timeline);
+  timeline = ConclusionsAnimation(timeline);
 };
 
 window.addEventListener("load", initTimeline);

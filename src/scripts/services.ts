@@ -804,3 +804,73 @@ export const userStoriesAnimation = (tl: gsap.core.Timeline) => {
 
   return tl;
 };
+
+export const ConclusionsAnimation = (tl: gsap.core.Timeline) => {
+  tl.fromTo(
+    "#conclusion-box-0-conclusions",
+    {
+      x: -1000,
+      y: -1000,
+      rotate: -20,
+    },
+    { x: -50, y: 150, rotate: 5, duration: 2, ease: "power3.out" },
+    "label-conclusions-=2"
+  );
+
+  tl.fromTo(
+    "#conclusion-box-1-conclusions",
+    {
+      x: 350,
+      y: -1000,
+      rotate: 20,
+    },
+    { x: 550, y: -100, rotate: -5, duration: 2, ease: "power3.out" },
+    "label-conclusions-=2"
+  );
+
+  tl.fromTo(
+    "#conclusion-box-2-conclusions",
+    {
+      x: 1000,
+      y: -1000,
+      rotate: 50,
+    },
+    { x: 800, y: -50, rotate: -3, duration: 2, ease: "power3.out" },
+    "label-conclusions-=2"
+  );
+
+  tl.fromTo(
+    "#conclusion-box-3-conclusions",
+    {
+      x: -500,
+      y: 1000,
+      rotate: 0,
+    },
+    { x: 50, y: -50, rotate: -5, duration: 2, ease: "power3.out" },
+    "label-conclusions-=2"
+  );
+
+  tl.fromTo(
+    "#conclusion-box-4-conclusions",
+    {
+      x: 350,
+      y: 1000,
+      rotate: 30,
+    },
+    { x: 450, y: -100, rotate: 1, duration: 2, ease: "power3.out" },
+    "label-conclusions-=2"
+  );
+
+  tl.fromTo(
+    "#conclusion-box-5-conclusions",
+    {
+      x: 1000,
+      y: 1000,
+      rotate: 15,
+    },
+    { x: 900, y: -200, rotate: -5, duration: 2, ease: "power3.out" },
+    "label-conclusions-=2"
+  );
+
+  return tl;
+};
