@@ -4,25 +4,27 @@ export const chapters = [
   "start",
   "project-poster",
   "brainstorm",
+  "competitor-analysis",
   "target-audience",
   "ecosystem-mapping",
   "target-audience-interview",
   "design-principles",
-  "competitor-analysis",
   "alphabet",
   "flipped-assumptions",
   "biases",
   "crazy-8",
   "random-words",
   "converging-voting",
+  "converging-chili",
   "goals",
   "converging-personas",
   "user-scenarios",
+  "user-stories",
   "converging-feature-matrix",
   "letters",
   "written-guidelines",
   "storyboards",
-  "user-stories",
+
   // "user-journeys",
   // "prototype-technical-logic",
   "prototype-paper",
@@ -34,9 +36,6 @@ export const chapters = [
   "wireflows-app",
   "prototype-app-paper",
   "prototype-app-figma",
-  // "test-1",
-  // "test-2",
-  // "test-3",
   "conclusions",
 ];
 
@@ -343,12 +342,12 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
   tl.to(
     "#post-it-0-brainstorm",
     { left: "30%", top: "30%", rotate: -2, duration: 3.5, ease: "power1.out" },
-    "label-brainstorm-=3.5"
+    "label-brainstorm-=1.5"
   );
   tl.to(
     "#post-it-1-brainstorm",
     { left: "77%", top: "8%", rotate: 4, duration: 3.5, ease: "power1.out" },
-    "label-brainstorm-=3.5"
+    "label-brainstorm-=1.5"
   );
   tl.to(
     "#post-it-2-brainstorm",
@@ -359,7 +358,7 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
       duration: 3.5,
       ease: "power1.out",
     },
-    "label-brainstorm-=3.5"
+    "label-brainstorm-=1.5"
   );
   tl.to(
     "#post-it-3-brainstorm",
@@ -370,7 +369,7 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
       duration: 3.5,
       ease: "power1.out",
     },
-    "label-brainstorm-=3.5"
+    "label-brainstorm-=1.5"
   );
   tl.to(
     "#post-it-4-brainstorm",
@@ -381,7 +380,7 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
       duration: 3.5,
       ease: "power1.out",
     },
-    "label-brainstorm-=3.5"
+    "label-brainstorm-=1.5"
   );
   tl.to(
     "#post-it-5-brainstorm",
@@ -392,7 +391,7 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
       duration: 3.5,
       ease: "power1.out",
     },
-    "label-brainstorm-=3.5"
+    "label-brainstorm-=1.5"
   );
   tl.to(
     "#post-it-6-brainstorm",
@@ -403,12 +402,12 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
       duration: 3.5,
       ease: "power1.out",
     },
-    "label-brainstorm-=3.5"
+    "label-brainstorm-=1.5"
   );
   tl.to(
     "#post-it-7-brainstorm",
     { left: "55%", top: "2%", rotate: -5, duration: 3.5, ease: "power1.out" },
-    "label-brainstorm-=3.5"
+    "label-brainstorm-=1.5"
   );
   tl.to(
     "#post-it-8-brainstorm",
@@ -419,12 +418,12 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
       duration: 3.5,
       ease: "power1.out",
     },
-    "label-brainstorm-=3.5"
+    "label-brainstorm-=1.5"
   );
   tl.to(
     "#post-it-9-brainstorm",
     { left: "5%", top: "5%", rotate: -2, duration: 3.5, ease: "power1.out" },
-    "label-brainstorm-=3.5"
+    "label-brainstorm-=1.5"
   );
   tl.to(
     "#post-it-10-brainstorm",
@@ -435,7 +434,7 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
       duration: 3.5,
       ease: "power1.out",
     },
-    "label-brainstorm-=3.5"
+    "label-brainstorm-=1.5"
   );
   tl.to(
     "#post-it-11-brainstorm",
@@ -446,7 +445,7 @@ export const brainstormAnimation = (tl: gsap.core.Timeline) => {
       duration: 3.5,
       ease: "power1.out",
     },
-    "label-brainstorm-=3.5"
+    "label-brainstorm-=1.5"
   );
 
   tl.from(
@@ -475,7 +474,7 @@ export const targetAudienceAnimation = (tl: gsap.core.Timeline) => {
     "#conclusion-box-0-target-audience",
     { x: 100, opacity: 0 },
     { x: 700, zIndex: 100, opacity: 1, duration: 2 },
-    "label-target-audience+=2.5"
+    "label-target-audience+=0.4"
   );
 
   return tl;
@@ -741,24 +740,45 @@ export const randomWordsAnimation = (tl: gsap.core.Timeline) => {
 
 export const votingAnimation = (tl: gsap.core.Timeline) => {
   tl.to(
-    ".no-votes",
+    ".no-votes-1",
     {
       textDecorationLine: "line-through",
       duration: 0.5,
-      stagger: 0.7,
+      stagger: 0.5,
+    },
+    "label-converging-voting-=1.5"
+  );
+
+  tl.to(
+    ".no-votes-2",
+    {
+      textDecorationLine: "line-through",
+      duration: 0.5,
+      stagger: 0.5,
     },
     "label-converging-voting-=1.5"
   );
 
   tl.from(
-    ".sticker",
+    ".sticker-1",
     {
       y: -500,
       opacity: 0,
       duration: 0.5,
-      stagger: 0.7,
+      stagger: 0.5,
     },
-    "label-converging-voting-=1.7"
+    "label-converging-voting-=1"
+  );
+
+  tl.from(
+    ".sticker-2",
+    {
+      y: -500,
+      opacity: 0,
+      duration: 0.5,
+      stagger: 0.5,
+    },
+    "label-converging-voting-=1"
   );
 
   return tl;

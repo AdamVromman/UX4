@@ -1,15 +1,19 @@
 ---
 import ChapterHead from "../ChapterHead.astro";
+import ConclusionBox from "../ConclusionBox.astro";
 ---
 
 <div
   id="competitor-analysis"
   class="chapter h-full visible-page-width-disabled relative"
 >
-  <ChapterHead title="Competitors Analysis" bottom={false} height={200} />
+  <ChapterHead title="Competitors Analysis" bottom={false} height={200}>
+    As a part of our primary research, we did a competitors analysis to see
+    what’s out there</ChapterHead
+  >
 
   <div
-    class="parallax-plane-1-competitor-analysis ca-table grid grid-cols-11 max-h-full bg-white relative left-[350px] max-w-[2000px]"
+    class="parallax-plane-1-competitor-analysis ca-table grid grid-cols-11 max-h-full bg-white relative left-[400px] max-w-[2000px]"
   >
     <div class="bg-orange text-blue font-io-bold">NAME</div>
     <div
@@ -340,11 +344,31 @@ import ChapterHead from "../ChapterHead.astro";
     <div class="peanut border-r-[1px] border-b-[1px] border-solid border-blue">
     </div>
   </div>
+  <div
+    class="absolute right-130 w-[650px] h-full top-0 flex flex-col justify-around"
+  >
+    <ConclusionBox black={false} id={0} chapter="competitor-analysis">
+      <span
+        >Initiative people who want to help their neighbourhoods can be the
+        Target Audience.</span
+      >
+    </ConclusionBox>
+
+    <ConclusionBox black={true} id={1} chapter="competitor-analysis">
+      <span
+        >The apps are more efficient in bigger cities & smaller neighbourhoods</span
+      >
+    </ConclusionBox>
+
+    <ConclusionBox black={true} id={2} chapter="competitor-analysis">
+      <span>Most of existing apps are built around neighbourhood chats.</span>
+    </ConclusionBox>
+  </div>
 </div>
 
 <style>
   #competitor-analysis {
-    @apply min-w-[2400px];
+    @apply min-w-[3200px];
   }
 
   .ca-table {

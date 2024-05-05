@@ -1,13 +1,21 @@
 ---
-
+import ChapterHead from "../ChapterHead.astro";
 ---
 
 <div
   id="project-poster"
   class="chapter h-full visible-page-width-disabled relative flex flex-col"
 >
-  <div class="h-1/6 w-full flex flex-col justify-center gap-20">
-    <h3 class="text-white px-40">Project poster.</h3>
+  <ChapterHead title="Project Poster." bottom={false} height={200}>
+    <span
+      >To start our project and make our goals from abstract to feasible we
+      created a project poster. We filled in this poster as we progressed
+      through our project.</span
+    ></ChapterHead
+  >
+  <div
+    class="h-1/6 w-[1500px] flex flex-col justify-center gap-20 relative left-[600px]"
+  >
     <div class="w-full flex flex-row">
       <h4 class="w-1/4 text-center text-white">The basics</h4>
       <h4 class="w-1/4 text-center text-white">Problem space</h4>
@@ -15,7 +23,9 @@
       <h4 class="w-1/4 text-center text-white">Ready to make it</h4>
     </div>
   </div>
-  <div class="parallax-plane-1-project-poster h-5/6 w-full flex flex-row">
+  <div
+    class="parallax-plane-1-project-poster h-5/6 w-[1500px] flex flex-row relative left-[600px]"
+  >
     <div class="w-1/4 bg-green flex flex-col gap-20 p-20">
       <div class="flex flex-col">
         <h5>Team</h5>
@@ -80,7 +90,9 @@
               average.</span
             >
           </li>
-          <li><span>The reaction speeds of elderly people goes down.</span></li>
+          <li>
+            <span>The reaction speeds of elderly people goes down.</span>
+          </li>
           <li>
             <span>Falls are more likely to occur to elderly people.</span>
           </li>
@@ -165,8 +177,9 @@
     </div>
   </div>
 </div>
+
 <style>
   #project-poster {
-    @apply min-w-[1700px];
+    @apply min-w-[2200px];
   }
 </style>

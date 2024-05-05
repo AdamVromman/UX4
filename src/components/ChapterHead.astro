@@ -11,7 +11,7 @@ const { title, bottom, height } = Astro.props;
 <div
   class=`absolute chapter-head ${bottom ? "bottom" : "top"} text-${bottom ? "grey":"white"} flex flex-col${bottom ? "-reverse" : ""} max-w-[600px] gap-10`
 >
-  <div>
+  <div class="max-w-[450px]">
     <h3 class="mb-20">{title}</h3>
     <slot />
   </div>
