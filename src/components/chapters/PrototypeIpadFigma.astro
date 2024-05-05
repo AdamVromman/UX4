@@ -7,7 +7,20 @@ import ConclusionBox from "../ConclusionBox.astro";
   id="prototype-ipad-figma"
   class="chapter h-full visible-page-width-disabled relative"
 >
-  <ChapterHead title="Tablet: Figma." bottom={true} height={120} />
+  <ChapterHead title="Tablet: Figma." bottom={true} height={120}>
+    <p>
+      We developed a Figma prototype that we would be able to test with our
+      secondary Target Audience, people in the streets, willing to record a
+      message.
+    </p>
+    <span
+      >(The figma prototype is available <a
+        href="https://www.figma.com/proto/z3IIqtgjieYcYNmWIfcN3a/UX4?page-id=75%3A294&type=design&node-id=182-216&viewport=737%2C-96%2C0.18&t=REkqHWYmSTAR6rsT-1&scaling=min-zoom&starting-point-node-id=182%3A216&show-proto-sidebar=1&mode=design"
+        >here</a
+      >.)</span
+    >
+  </ChapterHead>
+
   <div class="test absolute left-[500px] top-0">
     <div>
       <span class="test-col-title">Testing: Pre-Build</span>
@@ -378,9 +391,10 @@ import ConclusionBox from "../ConclusionBox.astro";
       </div>
     </div>
   </div>
+
+  <style>
+    #prototype-ipad-figma {
+      @apply min-w-[5500px];
+    }
+  </style>
 </div>
-<style>
-  #prototype-ipad-figma {
-    @apply min-w-[5500px];
-  }
-</style>

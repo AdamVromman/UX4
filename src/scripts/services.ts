@@ -24,7 +24,6 @@ export const chapters = [
   "letters",
   "written-guidelines",
   "storyboards",
-
   // "user-journeys",
   // "prototype-technical-logic",
   "prototype-paper",

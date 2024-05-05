@@ -6,5 +6,29 @@ import ChapterHead from "../ChapterHead.astro";
   id="prototype-ipad-paper"
   class="chapter h-full visible-page-width-disabled relative"
 >
-  <ChapterHead title="Tablet: Paper." bottom={false} height={120} />
+  <ChapterHead title="Tablet: Paper." bottom={false} height={120}>
+    <span
+      >The tablet prototype represents the tablet that would be present in the
+      city centre with the flowerbeds. On this tablet people would receive an
+      explanation about the project, they would be able to play and pause the
+      recording and they would be able to find inspiration.</span
+    ></ChapterHead
+  >
+  <img
+    class="absolute h-[800px] top-1/2 -translate-y-[50%] rounded-lg left-[500px] border-blue border-8 rotate-3"
+    src="./ipad-paper-1.JPG"
+  />
+  <img
+    class="absolute h-[800px] top-1/2 -translate-y-[50%] rounded-lg left-[1100px] border-blue border-8 -rotate-3"
+    src="./ipad-paper-2.JPG"
+  />
+  <img
+    class="absolute h-[800px] top-1/2 -translate-y-[50%] rounded-lg left-[1700px] border-blue border-8 rotate-6"
+    src="./ipad-paper-3.JPG"
+  />
 </div>
+<style>
+  #prototype-ipad-paper {
+    @apply min-w-[2500px];
+  }
+</style>
