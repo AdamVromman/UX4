@@ -1,6 +1,7 @@
 ---
 import ChapterHead from "../ChapterHead.astro";
 import ConclusionBox from "../ConclusionBox.astro";
+import Test from "../Test.astro";
 ---
 
 <div
@@ -19,29 +20,420 @@ import ConclusionBox from "../ConclusionBox.astro";
     class="parallax-plane-1-prototype-lights relative z-20 left-[700px] top-1/2 -translate-y-[50%]"
     src="prototype-lights.png"
   />
-  <div class="absolute top-[20%] left-[1200px]">
-    <ConclusionBox chapter="prototype-lights" id={0} black={false}>
-      <span
-        >The arduino setup with WebRTC connection really helped us to test the
-        feeling of smart device with out Target Audience. Our assumptions about
-        TA being not crazy about having smart devices were confirmed, how can we
-        make it even friendlier?
-      </span>
-    </ConclusionBox>
-  </div>
-  <div class="absolute bottom-[20%] left-[1200px]">
-    <ConclusionBox chapter="prototype-lights" id={0} black={true}>
-      <span
-        >The audio connection was not clear enough for the users at home -> The
-        connection is quite clear for users in city, but how can we make it even
-        clearer?
-      </span>
-    </ConclusionBox>
+  <div class="test absolute left-[1500px] top-0">
+    <div>
+      <span class="test-col-title">Pre-build</span>
+      <div class="test-col green">
+        <div class="test-s">
+          <span class="test-q">Who are our Target User?</span>
+          <ul class="test-a">
+            <li class="test-line">
+              <span>Random passerbyes on the street.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="test-s">
+          <span class="test-q">What are we testing?</span>
+          <ul class="test-a">
+            <li class="test-line">
+              <span>People saying things in the microphone.</span>
+            </li>
+            <li class="test-line">
+              <span>People navigating the iPad.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="test-s">
+          <span class="test-q">What is the user goal?</span>
+          <ul class="test-a">
+            <li class="test-line">
+              <span>To record an improvised message.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="test-s">
+          <span class="test-q">What materials do we need?</span>
+          <ul class="test-a">
+            <li class="test-line">
+              <span>Prototype 2.</span>
+            </li>
+            <li class="test-line">
+              <span>Phone for calling.</span>
+            </li>
+            <li class="test-line">
+              <span>Phone for recording.</span>
+            </li>
+
+            <li class="test-line">
+              <span>Instructions.</span>
+            </li>
+            <li class="test-line">
+              <span>Flowerbed.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <span class="test-col-title">Pre-Test</span>
+      <div class="test-col orange">
+        <div class="test-s">
+          <span class="test-q">What is the scenario?</span>
+          <ul class="test-a">
+            <li class="test-line">
+              <span
+                >Random person walks through the city and feels like making
+                someones day.</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="test-s">
+          <span class="test-q">What CAN'T we tell the user before testing?</span
+          >
+          <ul class="test-a">
+            <li class="test-line">
+              <span>Explain what to do.</span>
+            </li>
+            <li class="test-line">
+              <span>Give them inspiration about what to say.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="test-s">
+          <span class="test-q"
+            >What do we need to tell the user before testing?</span
+          >
+          <ul class="test-a">
+            <li class="test-line">
+              <span>A short description of the project.</span>
+            </li>
+            <li class="test-line">
+              <span>Permissions to be filmed and recorded.</span>
+            </li>
+            <li class="test-line">
+              <span>Imagine there is a flowerbed.</span>
+            </li>
+            <li class="test-line">
+              <span>They can read the instructions on the screen.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="test-s">
+          <span class="test-q">What are the user tasks?</span>
+          <ul class="test-a">
+            <li class="test-line">
+              <span>1. Read the instructions.</span>
+            </li>
+            <li class="test-line">
+              <span>2. Record the message, following the instructions.</span>
+            </li>
+            <li class="test-line">
+              <span>3. Navigate an inspiration.</span>
+            </li>
+
+            <li class="test-line">
+              <span>4. play/pause the recording.</span>
+            </li>
+            <li class="test-line">
+              <span>Flowerbed.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="test-s">
+          <span class="test-q"
+            >What questions do we need to ask the user afterwards?</span
+          >
+          <ul class="test-a">
+            <li class="test-line">
+              <span>Would you do this in a real life scenario?</span>
+            </li>
+            <li class="test-line">
+              <span
+                >Would you like this if you would be lonely/stuck at home?</span
+              >
+            </li>
+            <li class="test-line">
+              <span
+                >Would this setup make you stop and read the instructions?</span
+              >
+            </li>
+
+            <li class="test-line">
+              <span>How do you feel after having send a message?</span>
+            </li>
+            <li class="test-line">
+              <span>Flowerbed.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <span class="test-col-title">Test</span>
+      <div class="test-grid">
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>1</span>
+        <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+      </div>
+    </div>
+    <div class="relative">
+      <span class="test-col-title">Post-Test</span>
+      <div class="absolute top-[20%]">
+        <ConclusionBox chapter="prototype-lights" id={0} black={false}>
+          <span
+            >The arduino setup with WebRTC connection really helped us to test
+            the feeling of smart device with out Target Audience. Our
+            assumptions about TA being not crazy about having smart devices were
+            confirmed, how can we make it even friendlier?
+          </span>
+        </ConclusionBox>
+      </div>
+      <div class="absolute bottom-[20%]">
+        <ConclusionBox chapter="prototype-lights" id={0} black={true}>
+          <span
+            >The audio connection was not clear enough for the users at home ->
+            The connection is quite clear for users in city, but how can we make
+            it even clearer?
+          </span>
+        </ConclusionBox>
+      </div>
+    </div>
   </div>
 </div>
 
 <style>
   #prototype-lights {
-    @apply min-w-[2300px];
+    @apply min-w-[7000px];
+  }
+
+  .test {
+    @apply flex flex-row h-full py-40 gap-80;
+  }
+
+  .test-col-title {
+    @apply text-white font-io-semibold text-4xl mb-20 block;
+  }
+
+  .test-grid {
+    @apply grid  border-grey bg-white border-t-[1px] border-l-[1px] w-[1200px] max-h-[700px] overflow-auto;
+    grid-template-columns: 60px 60px 1fr 1fr 1fr 60px;
+
+    span {
+      @apply flex justify-center items-center border-grey border-b-[1px] border-r-[1px] p-10;
+    }
+  }
+
+  .test-col {
+    @apply h-[720px] flex flex-col justify-center gap-20 flex-wrap;
+
+    &.green {
+      .test-q {
+        @apply bg-green;
+      }
+
+      .test-a {
+        @apply bg-green;
+      }
+    }
+
+    &.orange {
+      .test-q {
+        @apply bg-orange;
+      }
+
+      .test-a {
+        @apply bg-orange;
+      }
+    }
+
+    &.grey {
+      @apply text-white;
+
+      .test-q {
+        @apply bg-grey;
+      }
+
+      .test-a {
+        @apply bg-grey;
+      }
+    }
+  }
+
+  .test-s {
+    @apply w-[500px];
+  }
+
+  .test-q {
+    @apply block font-io-semibold text-2xl  w-fit px-20 py-10;
+  }
+
+  .test-a {
+    @apply list-decimal;
+  }
+  .test-line {
+    @apply w-full h-[60px] px-20 overflow-hidden;
+    @apply flex flex-row items-center;
+    @apply border-b-[1px] border-solid border-grey;
   }
 </style>

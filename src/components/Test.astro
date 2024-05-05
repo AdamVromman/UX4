@@ -1,6 +1,14 @@
 ---
-
+interface Props {
+  color: "green" | "orange" | "grey" | "blue" | "white";
+}
 ---
 
-<div></div>
-<style></style>
+<div class="grid grid-rows-2 relative">
+  <slot />
+</div>
+<style is:global>
+  .test-grid {
+    @apply bg-green;
+  }
+</style>
