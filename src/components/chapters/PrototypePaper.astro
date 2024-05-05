@@ -1,5 +1,6 @@
 ---
 import ChapterHead from "../ChapterHead.astro";
+import ConclusionBox from "../ConclusionBox.astro";
 ---
 
 <div
@@ -14,12 +15,22 @@ import ChapterHead from "../ChapterHead.astro";
     ></ChapterHead
   >
   <img
-    class="parallax-plane-1-prototype-paper relative left-[700px] top-1/2 -translate-y-[50%]"
+    class="parallax-plane-1-prototype-paper relative left-[500px] top-1/2 -translate-y-[50%] z-20"
     src="prototype-paper.png"
   />
+  <div class="absolute top-40 left-[1000px]">
+    <ConclusionBox black={false} id={0} chapter="prototype-paper"
+      ><span
+        >We needed to think how to translate the sound. The shape and the size
+        of the flower became clear. The lights can be connected to the arduino
+        through the stem. How can we make the connection between the home and
+        city tulips clear?</span
+      ></ConclusionBox
+    >
+  </div>
 </div>
 <style>
   #prototype-paper {
-    @apply min-w-[1400px];
+    @apply min-w-[1500px];
   }
 </style>

@@ -30,11 +30,13 @@ export const chapters = [
   "prototype-paper",
   "prototype-lights",
   "prototype-sound",
-  "wireflows-ipad",
+
   "prototype-ipad-paper",
+  "wireflows-ipad",
   "prototype-ipad-figma",
-  "wireflows-app",
+
   "prototype-app-paper",
+  "wireflows-app",
   "prototype-app-figma",
   "conclusions",
 ];

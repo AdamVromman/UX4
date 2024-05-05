@@ -10,25 +10,29 @@ import Test from "../Test.astro";
 >
   <ChapterHead title="Prototype: Lights" bottom={true} height={100}
     ><span
-      >The next prototype was a lot more advanced. We wanted to test the feeling
-      of a smart device. This was important to use since our target audience is
-      not always as tech savvy as us. Therefor, it is important to test what
-      happens when we add pieces of technology.</span
+      >The next prototype was a lot more advanced. This was important to use
+      since our target audience is not always as tech savvy as us. Therefor, it
+      is important to test what happens when we add pieces of technology. We
+      programmed our Arduino prototype to illustrate the connection between home
+      tulip and city tulip</span
     ></ChapterHead
   >
   <img
-    class="parallax-plane-1-prototype-lights relative z-20 left-[700px] top-1/2 -translate-y-[50%]"
+    class="parallax-plane-1-prototype-lights relative z-20 left-[500px] top-1/2 -translate-y-[50%]"
     src="prototype-lights.png"
   />
-  <div class="test absolute left-[1500px] top-0">
+  <div class="test absolute left-[1200px] top-0">
     <div>
-      <span class="test-col-title">Pre-build</span>
+      <span class="test-col-title">Testing: Pre-Build</span>
       <div class="test-col green">
         <div class="test-s">
           <span class="test-q">Who are our Target User?</span>
           <ul class="test-a">
             <li class="test-line">
-              <span>Random passerbyes on the street.</span>
+              <span
+                >Main Target Audience. Elderly people that are not too
+                tech-savvy.</span
+              >
             </li>
           </ul>
         </div>
@@ -37,10 +41,10 @@ import Test from "../Test.astro";
           <span class="test-q">What are we testing?</span>
           <ul class="test-a">
             <li class="test-line">
-              <span>People saying things in the microphone.</span>
+              <span>TA using the flower.</span>
             </li>
             <li class="test-line">
-              <span>People navigating the iPad.</span>
+              <span>TA listening to sounds coming from flower.</span>
             </li>
           </ul>
         </div>
@@ -48,7 +52,7 @@ import Test from "../Test.astro";
           <span class="test-q">What is the user goal?</span>
           <ul class="test-a">
             <li class="test-line">
-              <span>To record an improvised message.</span>
+              <span>To listen to the flower as intended.</span>
             </li>
           </ul>
         </div>
@@ -56,7 +60,7 @@ import Test from "../Test.astro";
           <span class="test-q">What materials do we need?</span>
           <ul class="test-a">
             <li class="test-line">
-              <span>Prototype 2.</span>
+              <span>Prototype 1.</span>
             </li>
             <li class="test-line">
               <span>Phone for calling.</span>
@@ -64,44 +68,26 @@ import Test from "../Test.astro";
             <li class="test-line">
               <span>Phone for recording.</span>
             </li>
-
-            <li class="test-line">
-              <span>Instructions.</span>
-            </li>
-            <li class="test-line">
-              <span>Flowerbed.</span>
-            </li>
           </ul>
         </div>
       </div>
     </div>
 
     <div>
-      <span class="test-col-title">Pre-Test</span>
+      <span class="test-col-title">Testing: Pre-Test</span>
       <div class="test-col orange parallax-plane-1-prototype-lights">
         <div class="test-s">
           <span class="test-q">What is the scenario?</span>
           <ul class="test-a">
             <li class="test-line">
               <span
-                >Random person walks through the city and feels like making
-                someones day.</span
+                >Person sits at home and feels like having some connection to
+                the city centre. Their flower is already set up.</span
               >
             </li>
           </ul>
         </div>
-        <div class="test-s">
-          <span class="test-q">What CAN'T we tell the user before testing?</span
-          >
-          <ul class="test-a">
-            <li class="test-line">
-              <span>Explain what to do.</span>
-            </li>
-            <li class="test-line">
-              <span>Give them inspiration about what to say.</span>
-            </li>
-          </ul>
-        </div>
+
         <div class="test-s">
           <span class="test-q"
             >What do we need to tell the user before testing?</span
@@ -113,33 +99,28 @@ import Test from "../Test.astro";
             <li class="test-line">
               <span>Permissions to be filmed and recorded.</span>
             </li>
+          </ul>
+        </div>
+        <div class="test-s">
+          <span class="test-q">What CAN'T we tell the user before testing?</span
+          >
+          <ul class="test-a">
             <li class="test-line">
-              <span>Imagine there is a flowerbed.</span>
-            </li>
-            <li class="test-line">
-              <span>They can read the instructions on the screen.</span>
+              <span>Explain what to do.</span>
             </li>
           </ul>
         </div>
-
         <div class="test-s">
           <span class="test-q">What are the user tasks?</span>
           <ul class="test-a">
             <li class="test-line">
-              <span>1. Read the instructions.</span>
+              <span>1. Enable the sound.</span>
             </li>
             <li class="test-line">
-              <span>2. Record the message, following the instructions.</span>
+              <span>2. Listen to the city.</span>
             </li>
             <li class="test-line">
-              <span>3. Navigate an inspiration.</span>
-            </li>
-
-            <li class="test-line">
-              <span>4. play/pause the recording.</span>
-            </li>
-            <li class="test-line">
-              <span>Flowerbed.</span>
+              <span>3. Disable the sound.</span>
             </li>
           </ul>
         </div>
@@ -149,38 +130,48 @@ import Test from "../Test.astro";
           >
           <ul class="test-a">
             <li class="test-line">
-              <span>Would you do this in a real life scenario?</span>
+              <span>What did you feel when you heard the city?</span>
             </li>
             <li class="test-line">
-              <span
-                >Would you like this if you would be lonely/stuck at home?</span
-              >
-            </li>
-            <li class="test-line">
-              <span
-                >Would this setup make you stop and read the instructions?</span
-              >
-            </li>
-
-            <li class="test-line">
-              <span>How do you feel after having send a message?</span>
-            </li>
-            <li class="test-line">
-              <span>Flowerbed.</span>
+              <span>Did you hear it well enough?</span>
             </li>
           </ul>
         </div>
       </div>
     </div>
     <div>
-      <span class="test-col-title">Test</span>
+      <span class="test-col-title">Testing: Test</span>
       <div class="test-grid">
-        <span>1</span>
-        <span>1</span>
-        <span>/</span>
-        <span>/</span>
-        <span>/</span>
-        <span>0/5</span>
+        <div
+          class="h-[60px] border-b-[1px] border-grey flex justify-center items-center bg-white sticky top-0"
+        >
+          User Task ID
+        </div>
+        <div
+          class="h-[60px] border-b-[1px] border-grey flex justify-center items-center bg-white sticky top-0"
+        >
+          User ID
+        </div>
+        <div
+          class="h-[60px] border-b-[1px] border-grey flex justify-center items-center bg-white sticky top-0"
+        >
+          What are they saying?
+        </div>
+        <div
+          class="h-[60px] border-b-[1px] border-grey flex justify-center items-center bg-white sticky top-0"
+        >
+          What are they feeling?
+        </div>
+        <div
+          class="h-[60px] border-b-[1px] border-grey flex justify-center items-center bg-white sticky top-0"
+        >
+          Notes
+        </div>
+        <div
+          class="h-[60px] border-b-[1px] border-grey flex justify-center items-center bg-white sticky top-0"
+        >
+          Score
+        </div>
 
         <span>1</span>
         <span>1</span>
@@ -189,7 +180,14 @@ import Test from "../Test.astro";
         <span>/</span>
         <span>0/5</span>
 
+        <span>2</span>
         <span>1</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>3</span>
         <span>1</span>
         <span>/</span>
         <span>/</span>
@@ -197,133 +195,63 @@ import Test from "../Test.astro";
         <span>0/5</span>
 
         <span>1</span>
-        <span>1</span>
+        <span>2</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>2</span>
+        <span>2</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>3</span>
+        <span>2</span>
         <span>/</span>
         <span>/</span>
         <span>/</span>
         <span>0/5</span>
 
         <span>1</span>
-        <span>1</span>
+        <span>3</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>2</span>
+        <span>3</span>
+        <span>/</span>
+        <span>/</span>
+        <span>/</span>
+        <span>0/5</span>
+
+        <span>3</span>
+        <span>3</span>
         <span>/</span>
         <span>/</span>
         <span>/</span>
         <span>0/5</span>
 
         <span>1</span>
-        <span>1</span>
+        <span>4</span>
         <span>/</span>
         <span>/</span>
         <span>/</span>
         <span>0/5</span>
 
-        <span>1</span>
-        <span>1</span>
+        <span>2</span>
+        <span>4</span>
         <span>/</span>
         <span>/</span>
         <span>/</span>
         <span>0/5</span>
 
-        <span>1</span>
-        <span>1</span>
-        <span>/</span>
-        <span>/</span>
-        <span>/</span>
-        <span>0/5</span>
-
-        <span>1</span>
-        <span>1</span>
-        <span>/</span>
-        <span>/</span>
-        <span>/</span>
-        <span>0/5</span>
-
-        <span>1</span>
-        <span>1</span>
-        <span>/</span>
-        <span>/</span>
-        <span>/</span>
-        <span>0/5</span>
-
-        <span>1</span>
-        <span>1</span>
-        <span>/</span>
-        <span>/</span>
-        <span>/</span>
-        <span>0/5</span>
-
-        <span>1</span>
-        <span>1</span>
-        <span>/</span>
-        <span>/</span>
-        <span>/</span>
-        <span>0/5</span>
-
-        <span>1</span>
-        <span>1</span>
-        <span>/</span>
-        <span>/</span>
-        <span>/</span>
-        <span>0/5</span>
-
-        <span>1</span>
-        <span>1</span>
-        <span>/</span>
-        <span>/</span>
-        <span>/</span>
-        <span>0/5</span>
-
-        <span>1</span>
-        <span>1</span>
-        <span>/</span>
-        <span>/</span>
-        <span>/</span>
-        <span>0/5</span>
-
-        <span>1</span>
-        <span>1</span>
-        <span>/</span>
-        <span>/</span>
-        <span>/</span>
-        <span>0/5</span>
-
-        <span>1</span>
-        <span>1</span>
-        <span>/</span>
-        <span>/</span>
-        <span>/</span>
-        <span>0/5</span>
-
-        <span>1</span>
-        <span>1</span>
-        <span>/</span>
-        <span>/</span>
-        <span>/</span>
-        <span>0/5</span>
-
-        <span>1</span>
-        <span>1</span>
-        <span>/</span>
-        <span>/</span>
-        <span>/</span>
-        <span>0/5</span>
-
-        <span>1</span>
-        <span>1</span>
-        <span>/</span>
-        <span>/</span>
-        <span>/</span>
-        <span>0/5</span>
-
-        <span>1</span>
-        <span>1</span>
-        <span>/</span>
-        <span>/</span>
-        <span>/</span>
-        <span>0/5</span>
-
-        <span>1</span>
-        <span>1</span>
+        <span>3</span>
+        <span>4</span>
         <span>/</span>
         <span>/</span>
         <span>/</span>
@@ -338,7 +266,7 @@ import Test from "../Test.astro";
       </div>
     </div>
     <div class="relative">
-      <span class="test-col-title">Post-Test</span>
+      <span class="test-col-title">Testing: Post-Test</span>
       <div class="absolute top-[20%]">
         <ConclusionBox chapter="prototype-lights" id={0} black={false}>
           <span
@@ -364,7 +292,7 @@ import Test from "../Test.astro";
 
 <style is:global>
   #prototype-lights {
-    @apply min-w-[7000px];
+    @apply min-w-[5950px];
   }
 
   .test {
