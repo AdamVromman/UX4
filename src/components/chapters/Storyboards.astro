@@ -7,9 +7,20 @@ import ChapterHead from "../ChapterHead.astro";
   class="chapter h-full visible-page-width-disabled relative"
 >
   <ChapterHead title="Storyboards." bottom={false} height={20} />
-  <div class="flex flex-row h-full items-center relative left-[300px]">
-    <img class="h-3/5" src="./story-board-2.png" />
-    <img class="h-3/5" src="./story-board-1.png" />
+  <div
+    class="flex flex-row h-full items-center relative left-[300px] text-white"
+  >
+    <div>
+      <span class="font-io-regular text-2xl">Problem</span>
+      <img class="h-[600px]" src="./story-board-2.png" />
+    </div>
+    <div>
+      <span class="font-io-regular text-2xl">Solution</span>
+      <span class="ml-20"
+        >Both Pomona's and Peter's story are happening at the same time.</span
+      >
+      <img class="h-[600px]" src="./story-board-1.png" />
+    </div>
   </div>
 </div>
 <style>
