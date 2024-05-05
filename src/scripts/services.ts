@@ -773,3 +773,13 @@ export const userScenariosAnimation = (tl: gsap.core.Timeline) => {
 
   return tl;
 };
+
+export const userStoriesAnimation = (tl: gsap.core.Timeline) => {
+  tl.to(
+    ".user-stories-guide",
+    { left: "76%", duration: 2.6, ease: "none" },
+    "label-user-stories-=0.3"
+  );
+
+  return tl;
+};

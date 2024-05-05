@@ -11,39 +11,24 @@ import ChapterHead from "../ChapterHead.astro";
     <h4 class="text-grey absolute left-0 top-0">Guide</h4>
     <div class="flex flex-row h-[50%] relative">
       <div class="guide-item guide-item-persona">
-        <img
-          class="user-scenario-shape user-scenarios-shape-cw"
-          src="./shape-1.svg"
-        />
+        <img class="user-scenario-shape shape-cw" src="./shape-1.svg" />
 
         <span class="font-io-regular text-xl">User persona</span>
       </div>
       <div class="guide-item guide-item-goals">
-        <img
-          class="user-scenario-shape user-scenarios-shape-ccw"
-          src="./shape-2.svg"
-        />
+        <img class="user-scenario-shape shape-ccw" src="./shape-2.svg" />
         <span class="font-io-regular text-xl">Goals/Tasks</span>
       </div>
       <div class="guide-item guide-item-context">
-        <img
-          class="user-scenario-shape user-scenarios-shape-cw"
-          src="./shape-3.svg"
-        />
+        <img class="user-scenario-shape shape-cw" src="./shape-3.svg" />
         <span class="font-io-regular text-xl">Context</span>
       </div>
       <div class="guide-item guide-item-completion">
-        <img
-          class="user-scenario-shape user-scenarios-shape-ccw"
-          src="./shape-4.svg"
-        />
+        <img class="user-scenario-shape shape-ccw" src="./shape-4.svg" />
         <span class="font-io-regular text-xl">Path To Completion</span>
       </div>
       <div class="guide-item guide-item-points">
-        <img
-          class="user-scenario-shape user-scenarios-shape-cw"
-          src="./shape-5.svg"
-        />
+        <img class="user-scenario-shape shape-cw" src="./shape-5.svg" />
         <span class="font-io-regular text-xl">Friction Points</span>
       </div>
     </div>
@@ -162,14 +147,14 @@ import ChapterHead from "../ChapterHead.astro";
   </div>
   <script>
     import { gsap } from "gsap";
-    gsap.to(".user-scenarios-shape-cw", {
+    gsap.to(".shape-cw", {
       rotate: 360,
       duration: 60,
       repeat: -1,
       ease: "none",
     });
 
-    gsap.to(".user-scenarios-shape-ccw", {
+    gsap.to(".shape-ccw", {
       rotate: -360,
       duration: 60,
       repeat: -1,

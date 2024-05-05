@@ -7,4 +7,138 @@ import ChapterHead from "../ChapterHead.astro";
   class="chapter h-full visible-page-width-disabled relative"
 >
   <ChapterHead title="User Stories" bottom={true} height={20} />
+  <div class="user-stories-guide absolute left-[50px] top-[10%]">
+    <h4 class="text-white absolute left-0 top-0">Guide</h4>
+    <div class="flex flex-row h-[50%] relative text-white">
+      <div class="guide-item guide-item-persona">
+        <img class="user-stories-shape shape-cw" src="./shape-1.svg" />
+
+        <span class="font-io-regular text-xl">Type of user</span>
+      </div>
+      <div class="guide-item guide-item-goals">
+        <img class="user-stories-shape shape-ccw" src="./shape-2.svg" />
+        <span class="font-io-regular text-xl">Goals/Tasks</span>
+      </div>
+      <div class="guide-item guide-item-context">
+        <img class="user-stories-shape shape-cw" src="./shape-5.svg" />
+        <span class="font-io-regular text-xl">Reason</span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="parallax-plane-1-user-stories absolute top-1/2 left-[400px] h-2/5 flex flex-row items-center text-white gap-130"
+  >
+    <div class="stories">
+      <h5>Dumbledore</h5><p>
+        <span>As</span>
+        <span class="user-stories-text-persona">an introverted senior,</span>
+        <span class="user-stories-text-goals"
+          >I want to easily initiate contact with the outside world using my
+          tulip device,</span
+        >
+        <span class="user-stories-text-context"
+          >so that I can feel more connected to my community and less isolated.</span
+        >
+      </p>
+    </div>
+    <div class="stories">
+      <h5>Pomona</h5><p>
+        <span>As</span>
+        <span class="user-stories-text-persona"> a sociable gardener,</span>
+        <span class="user-stories-text-goals"
+          >I want to use my tulip device to initiate conversations with younger
+          people in the city,</span
+        >
+
+        <span class="user-stories-text-context">
+          so that I can build new friendships and feel a greater sense of
+          belonging.</span
+        >
+      </p>
+    </div>
+    <div class="stories">
+      <h5>Peter</h5><p>
+        <span>As</span>
+        <span class="user-stories-text-persona">a shy teenager,</span>
+        <span class="user-stories-text-goals">
+          I want to use the city square tulip device to send anonymous voice
+          memos to older individuals,</span
+        >
+        <span class="user-stories-text-context"
+          >so that I can contribute to my community and help them feel less
+          isolated.
+        </span>
+      </p>
+    </div>
+    <div class="stories">
+      <h5>Kate</h5><p>
+        <span>As</span>
+        <span class="user-stories-text-persona"> a busy executive,</span>
+        <span class="user-stories-text-goals"
+          >wants to stay connected with her elderly family members, despite her
+          busy schedule, and ensure their well-being.</span
+        >
+        <span class="user-stories-text-context"
+          >so that I can ensure their well-being and stay connected.</span
+        >
+      </p>
+    </div>
+  </div>
 </div>
+<style>
+  #user-stories {
+    @apply min-w-[3300px];
+
+    &:has(.guide-item-persona:hover) {
+      .stories {
+        span:not(.user-stories-text-persona) {
+          @apply opacity-5;
+        }
+      }
+    }
+
+    &:has(.guide-item-goals:hover) {
+      .stories {
+        span:not(.user-stories-text-goals) {
+          @apply opacity-5;
+        }
+      }
+    }
+
+    &:has(.guide-item-context:hover) {
+      .stories {
+        span:not(.user-stories-text-context) {
+          @apply opacity-5;
+        }
+      }
+    }
+  }
+
+  .user-stories-text-persona {
+    @apply bg-orange text-blue;
+  }
+
+  .user-stories-text-goals {
+    @apply bg-green text-blue;
+  }
+
+  .user-stories-text-context {
+    @apply bg-white text-blue border-[0.1px] border-blue;
+  }
+
+  .guide-item {
+    @apply flex flex-col items-center h-full w-[200px] justify-end;
+  }
+
+  .user-stories-shape {
+    @apply w-full;
+  }
+
+  .stories {
+    @apply flex flex-col gap-10 w-[600px];
+
+    h5 {
+      @apply font-io-semibold text-2xl text-blue;
+    }
+  }
+</style>

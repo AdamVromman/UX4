@@ -14,6 +14,7 @@ import {
   randomWordsAnimation,
   targetAudienceAnimation,
   userScenariosAnimation,
+  userStoriesAnimation,
   votingAnimation,
 } from "./services";
 
@@ -98,6 +99,7 @@ const initTimeline = () => {
   timeline = randomWordsAnimation(timeline);
   timeline = votingAnimation(timeline);
   timeline = userScenariosAnimation(timeline);
+  timeline = userStoriesAnimation(timeline);
 };
 
 window.addEventListener("load", initTimeline);
